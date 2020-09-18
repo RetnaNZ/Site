@@ -1,0 +1,54 @@
+body{
+	background-color:beige;
+	
+	text-align:center;
+}
+
+.container{
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	
+}
+
+.header{
+	height:100px;
+	background-color:blue;
+	
+	
+}
+
+.nav{
+	display: flex;
+	
+	
+	justify-content:center;
+	min-height:50px;
+	background-color:green;
+}
+
+.nav > div{
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size:12px;
+}
+
+.slides{
+	min-height:100px;
+	background-color:grey;
+}
+
+.welcome{
+	min-height:100px;
+	background-color:blue;
+}
+
+.CTA{
+	min-height:100px;
+	background-color:green;
+}
+
+.foot{
+	min-height:100px;
+	background-color:grey;
+}
