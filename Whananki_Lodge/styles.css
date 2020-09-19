@@ -1,54 +1,77 @@
 body{
-	background-color:beige;
-	
+
+
 	text-align:center;
+
+	margin:0px;
+	padding:0px;
+}
+
+.back-home{
+	height:20px;
+	font-family: sans-serif;
 }
 
 .container{
 	margin-left:auto;
 	margin-right:auto;
-	width:90%;
-	
+	width:100%;
+	height: 100%;
+	font-family: sans-serif;
+
 }
 
 .header{
-	height:100px;
-	background-color:blue;
-	
-	
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height:100%;
 }
 
+.logo{
+	display:flex;
+	margin: 10px;
+}
 .nav{
-	display: flex;
-	
-	
-	justify-content:center;
-	min-height:50px;
-	background-color:green;
+	display:flex;
+
+	justify-content:flex-end;
+  align-items: center;
+
+	margin-right: 100px;
 }
 
 .nav > div{
-	margin-left: 50px;
-	margin-right: 50px;
-	font-size:12px;
+	margin-left:15px;
+	margin-right: 10px;
 }
 
-.slides{
-	min-height:100px;
-	background-color:grey;
+.video-content-container{
+	width: 100%;
+	display: flex;
+
+	justify-content: center;
+  align-items: center;
+
+
 }
 
-.welcome{
-	min-height:100px;
-	background-color:blue;
+.video-content {
+
+	width: 80%;
+    height: 0;
+    padding-bottom: 40%; /* Change this till it fits the dimensions of your video */
+    position: relative;
+
+
 }
 
-.CTA{
-	min-height:100px;
-	background-color:green;
-}
+.video-content iframe{
 
-.foot{
-	min-height:100px;
-	background-color:grey;
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+
 }
