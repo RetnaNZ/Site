@@ -1,6 +1,7 @@
 body{
-
-
+	background-image: url("./images/Background.jpg");
+	background-size: cover;
+	background-position: center;
 	text-align:center;
 
 	margin:0px;
@@ -8,14 +9,24 @@ body{
 }
 
 .back-home{
-	height:20px;
+	height:30px;
+	text-align:right;
+	margin: 20px;
 	font-family: sans-serif;
 }
 
+hr {
+  border: 1px dotted  white;
+}
+
 .container{
+	background-color:#3a3837CC;
+
+
+
 	margin-left:auto;
 	margin-right:auto;
-	width:100%;
+	width:90%;
 	height: 100%;
 	font-family: sans-serif;
 
@@ -30,7 +41,9 @@ body{
 .logo{
 	display:flex;
 	margin: 10px;
+	margin-left: 30px;
 }
+
 .nav{
 	display:flex;
 
@@ -47,6 +60,7 @@ body{
 
 .video-content-container{
 	width: 100%;
+	padding-top: 30px;
 	display: flex;
 
 	justify-content: center;
@@ -57,9 +71,9 @@ body{
 
 .video-content {
 
-	width: 80%;
-    height: 0;
-    padding-bottom: 40%; /* Change this till it fits the dimensions of your video */
+		width: 70%;
+    height: 50%;
+    padding-bottom: 35%; /* Change this till it fits the dimensions of your video */
     position: relative;
 
 
@@ -74,4 +88,95 @@ body{
     top: 0;
     left: 0;
 
+}
+
+.key-features{
+	font-size: 20px;
+	color: white;
+	text-decoration: underline;
+	font-family: 'Shadows Into Light', cursive;
+
+}
+
+.features-container{
+
+	width:70%;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.feature-logo{
+	width: 200px;
+	height: 200px;
+}
+
+.avaliablity-form-container{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+
+	justify-content: center;
+	height:500px;
+}
+
+.avaliablity{
+	display: grid;
+	grid-auto-rows: 1.5fr 1fr;
+}
+.calander{
+	background-color: blue;
+
+}
+
+.prices-container{
+	background-color: teal;
+}
+
+.prices{
+	display: flex;
+	justify-content: space-around;
+	margin:20px;
+	text-align:left;
+	font-size: 110%;
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+	height:40%;
+	background-color: teal;
+
+
+}
+
+.prices-container h1{
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+	text-decoration: underline;
+	text-align:center;
+	padding: 0px;
+	margin:20px;
+}
+
+.prices h3{
+	font-size: 150%;
+	padding: 0px;
+	margin:0px;
+}
+
+.prices p{
+	font-style: italic;
+	padding: 0px;
+	margin:10px;
+}
+
+.contact-form{
+	background-color: red;
+}
+
+.footer{
+	height: 400px;
 }
