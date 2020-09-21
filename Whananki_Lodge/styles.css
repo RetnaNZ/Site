@@ -27,6 +27,7 @@ hr {
 	margin-left:auto;
 	margin-right:auto;
 	width:90%;
+	min-width: 500px;
 	height: 100%;
 	font-family: sans-serif;
 
@@ -102,8 +103,8 @@ hr {
 
 	width:70%;
 	display:flex;
+	flex-shrink: 1;
 	justify-content: space-between;
-	align-items: center;
 
 	margin-left: auto;
 	margin-right: auto;
@@ -113,42 +114,48 @@ hr {
 }
 
 .feature-logo{
-	width: 200px;
-	height: 200px;
+	min-width:20px;
+	min-height:20px;
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.feature{
+	margin:10px;
+	min-width:80px;
+	min-height:80px;
 }
 
 .avaliablity-form-container{
 	display:grid;
 	grid-template-columns: 1fr 1fr;
-
-	justify-content: center;
-	height:500px;
 }
 
-.avaliablity{
+.calander-price-container{
 	display: grid;
-	grid-auto-rows: 1.5fr 1fr;
+	grid-template-rows: 1fr 1fr;
 }
+
 .calander{
 	background-color: blue;
-
 }
 
 .prices-container{
+	padding-left: 20px;
 	background-color: teal;
+	padding-bottom: 30px;
 }
 
 .prices{
 	display: flex;
-	justify-content: space-around;
-	margin:20px;
+	flex-wrap: wrap;
+
 	text-align:left;
 	font-size: 110%;
+
+
 	color: white;
 	font-family: 'Shadows Into Light', cursive;
-	height:40%;
-	background-color: teal;
-
 
 }
 
@@ -180,3 +187,5 @@ hr {
 .footer{
 	height: 400px;
 }
+
+.dp-weekday{background:#66666;}
