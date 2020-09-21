@@ -7,7 +7,14 @@ body{
 	margin:0px;
 	padding:0px;
 }
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
 
+a:link{
+	font-family: inherit;
+}
 .back-home{
 	height:30px;
 	text-align:right;

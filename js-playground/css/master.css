@@ -24,6 +24,23 @@ body{
   margin-right: auto;
 }
 
+a:link {
+  text-decoration: none;
+  font-family: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
 .logo{
 
   text-align: left;
@@ -58,5 +75,17 @@ body{
 .title{
   padding-top: 2%;
   font-size: 150%;
-  text-shadow: 50px 50px #666;
+  text-shadow: 10px 10px #010101;
+}
+
+.quick-readme{
+
+  display: flex;
+
+  position: absolute;
+  right: 200px;
+  top: 50px;
+  width: 15%;
+
+  text-shadow: 5px 5px #010101;
 }
