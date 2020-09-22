@@ -11,6 +11,7 @@ body{
 .container{
 
   width: 85%;
+  min-width: 800px;
   height: 2000px;
 
 
@@ -22,6 +23,8 @@ body{
 
   margin-left: auto;
   margin-right: auto;
+
+  cursor: default;
 }
 
 a:link {
@@ -41,25 +44,27 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
-.logo{
+
+.menu{
 
   text-align: left;
   position: fixed;
   width:15%
 }
 
-.logo img{
+.menu img{
   width:80%;
 
 }
 
-.logo:hover .nav > div{
+.menu:hover .nav > div{
   display: block;
 }
 
 .nav{
     background-color: #ffffff10;
 }
+
 .nav > div{
   display: none;
   position: relative;
@@ -76,16 +81,26 @@ a:active {
   padding-top: 2%;
   font-size: 150%;
   text-shadow: 10px 10px #010101;
+
+
 }
 
 .quick-readme{
 
-  display: flex;
-
-  position: absolute;
-  right: 200px;
-  top: 50px;
-  width: 15%;
+  width: 80%;
+  margin: 0 auto;
 
   text-shadow: 5px 5px #010101;
+}
+
+
+
+.JS-project{
+  background-color: #000020CC;
+}
+
+.info-icon{
+  width:30px;
+  margin-left: auto;
+  cursor: pointer;
 }
