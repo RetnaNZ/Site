@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="expense-style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Buda:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,600;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <title>Expense Tracker</title>
+
+  </head>
+
+  <body>
+
+  <div class="main-container">
+
+        <div class="left-right-containers">
+
+          <div class="container left-container">
+
+          <!-- panel is the container for one quater-block -->
+          <div class="left-panel-spacer">
+
+            <div class="panel top-left-box">
+
+                <div class="title">
+                  <h1>Stock-in/Stock-out</h1>
+                </div>
+
+                <div class="wrap-inputs-buttons">
+                  <div class="inputs">
+
+                      <div class="input-containers name-container">
+
+                        <div class="input-title">
+                          <h2>name</h2>
+                        </div>
+
+                        <div class="input-container">
+                          <input type="text" id="name-input" class="input-box" value=""/>
+                        </div>
+
+                      </div>
+
+                      <div class="input-containers amount-container">
+
+                        <div class="input-title">
+                          <h2>amount</h2>
+                        </div>
+
+                        <div class="input-container">
+                          <input type="text" id="amount-input" class="input-box" value=""/>
+                        </div>
+
+                      </div>
+
+                  </div>
+
+                  <div class="button-container">
+                    <button type="button" id="deposit-input-button">sell</button>
+                    <button type="button" id="spend-input-button">buy</button>
+                  </div>
+
+              </div>
+                </div>
+
+
+            <div class="panel bottom-left-box">
+
+
+                <div class="summary-container">
+                  <div class="sum-block total-deposit">
+                    <h4>total sales</h4>
+                    <h1 id="total-deposits"></h1>
+                  </div>
+
+                  <div class="sum-block total-expense">
+                    <h4>total purchased</h4>
+                    <h1 id="total-expenses"></h1>
+                  </div>
+
+                  <div class="sum-block current-sum">
+                    <h4>current budget</h4>
+                    <h1 id="total-current"></h1>
+                  </div>
+                </div>
+
+            </div>
+
+            <div class="panel stock-panel">
+                <div class="title">
+                  <h2>In-Stock</h2>
+                </div>
+              <div class="stock-container" id="stock-container">
+              </div>
+
+              <div class="sold-stock-container" id="sold-stock-container">
+                <div class="title">
+                  <h2>Sold Stock</h2>
+                </div>
+
+
+
+              </div>
+            </div>
+
+          </div>
+
+
+
+          </div>
+
+
+          <div class="container right-container">
+
+            <div class="panel top-right-box">
+
+                <div class="title tracker-title">
+                  <h1>budget tracker</h1>
+                </div>
+
+                <div id="trackers-container" class="trackers-container">
+                  <!-- IDEA: place your newly made tracker divs in here please -->
+                  <div class="tracker-block">
+                    <div class="name">
+                      <h3>name</h3>
+                    </div>
+                    <div class="amount">
+                      <h3>p/l</h3>
+                    </div>
+                    <div class="budget-sum">
+                      <h3>sum</h3>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
+
+<script src="expensejs.js" charset="utf-8"></script>
+
+
+  </body>
+
+</html>
