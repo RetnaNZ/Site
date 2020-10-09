@@ -1,0 +1,51 @@
+body{
+    padding: 0%;
+    margin: 0;
+}
+
+#main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -20;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.heading{
+    cursor: default;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.retna{
+    font-family: 'Rock Salt', cursive;
+    font-size: 10em;
+}
+
+.dotco{
+    font-family: 'PT Serif', serif;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+.quote{
+    font-family: 'PT Serif', serif;
+    font-size: 90%;
+    width: 100%;
+    position: relative;
+    top: -90px;
+    text-align: center;
+}
