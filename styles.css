@@ -1,52 +1,39 @@
 body{
-    padding: 0%;
-    margin: 0;
+margin: 0;
 }
 
-#main-container{
+#main{
     width: 100%;
     height: 100vh;
+
+    background-color: rgb(214, 183, 42);
+
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-iframe{
-    position: fixed ;
-    left: -350;
-    bottom: -100;
-    z-index: -1;
-    min-width: 150%;
-    min-height: 150%;
-
-}
-
-.heading{
-    cursor: default;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5rem;
+    color: white;
 }
 
-.retna{
-    font-family: 'Rock Salt', cursive;
-    font-size: 10em;
+.panel-one{
+    background-image: url('./image/summerbeach.jpg');
+    background-size: cover;
 }
 
-.dotco{
-    font-family: 'PT Serif', serif;
+.panel-two{
+    background-image: url('./image/dinner.jpg');
+    background-size: cover;
 }
 
-h1, h2, h3{
-    margin: 0;
+.panel-three{
+    background-image: url('./image/sunset.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-.quote{
-    font-family: 'PT Serif', serif;
-    font-size: 90%;
-    width: 100%;
-    position: relative;
-    top: -90px;
-    text-align: center;
+.panel-four{
+    background-image: url('./image/bonfire.jpeg');
+    background-size: cover;
 }

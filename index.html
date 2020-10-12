@@ -1,24 +1,196 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Rock+Salt&display=swap" rel="stylesheet">
 
-    <title>Retna.co.nz</title>
-  </head>
-  <body>
-    <div id="main-container">
+    <title>Scroll me</title>
+</head>
+<body>
 
-    <iframe  src="https://www.youtube.com/embed/zrPphZ4WJxc?autoplay=1&rel=0&modestbranding=1&controls=0&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-      <div class="heading">
-        <h1 class="retna">Retna</h1><h2 class="dotco">.co.nz</h2>
-        <h3 class="quote">my web-dev portfolio.</h3>
-      </div>
-
+    <div id="main" class="panel-one">
+        PANEL ONE
     </div>
-  </body>
+    
+    <div id="main" class="panel-two">
+        PANEL TWO
+    </div>
+
+    <div id="main" class="panel-three">
+        PANEL THREE
+    </div>
+
+    <div id="main" class="panel-four">
+        PANEL FOUR
+    </div>
+
+    <script>
+
+
+        let audio1 = new Audio('./audiofiles/panel-1-audio.mp3');
+        let audio2 = new Audio('./audiofiles/panel-2-audio.wav');
+        let audio3 = new Audio('./audiofiles/panel-3-audio.wav');
+        let audio4 = new Audio('./audiofiles/panel-4-audio.wav');
+
+        onload = audio1.play();
+        
+        let currentpanel = 0;
+        audio1.volume = 0.5;
+        audio2.volume = 0.1;
+        audio3.volume = 0.1;
+        audio4.volume = 0.1;
+
+        
+        let ticking = false;
+        let lastScrollPos = 0;
+
+        let volumeChangeAmount = 0.01;
+
+        window.addEventListener('scroll', function(){
+
+            console.log(window.scrollY);
+
+                       
+
+            if(window.scrollY > 0 & window.scrollY < 480){
+                currentpanel = 1;
+                console.log("panel 1");
+                audio2.pause();
+                audio1.play();
+                console.log(lastScrollPos);
+
+                audio2.volume = 0.01;
+                
+                if(window.scrollY >= 0 & window.scrollY < 480){
+
+                    if (window.scrollY > lastScrollPos & audio1.volume < 1.0){
+                        audio1.volume += volumeChangeAmount;
+                    }
+                    
+                    if(window.scrollY < lastScrollPos & audio1.volume > 0.0 & audio1.volume < 1.0){
+                        audio1.volume -= volumeChangeAmount;
+                    }
+                }
+
+                if(!ticking){
+                    lastScrollPos= window.scrollY;
+                    ticking = true;
+                }
+            ticking = false; 
+
+            }else if(window.scrollY > 480 & window.scrollY < 1400){
+                currentpanel = 2;
+                console.log("panel 2");
+                audio1.pause();
+                audio3.pause();
+                audio2.play();
+
+                audio3.volume = 0.1;
+
+
+                if(window.scrollY > 480 & window.scrollY < 900){
+
+                    if (window.scrollY > lastScrollPos & audio2.volume > 0.0 & audio2.volume < 1.0){
+                        audio2.volume += volumeChangeAmount;
+                    }
+                    
+                    if(window.scrollY < lastScrollPos & audio2.volume > 0.0 & audio2.volume < 1.0){
+                        audio2.volume -= volumeChangeAmount;
+                    }
+                }
+
+                if(window.scrollY > 900 & window.scrollY < 1400){
+
+                    if (window.scrollY > lastScrollPos & audio2.volume > 0.0 & audio2.volume < 1.0){
+                        audio2.volume -= volumeChangeAmount;
+                    }
+                    
+                    if(window.scrollY < lastScrollPos & audio2.volume > 0.0 & audio2.volume < 1.0){
+                        audio2.volume += volumeChangeAmount;
+                    }
+                }
+
+                if(!ticking){
+                    lastScrollPos= window.scrollY;
+                    ticking = true;
+                }
+            ticking = false; 
+
+            }else if(window.scrollY > 1400 & window.scrollY < 2300){
+                audio2.volume = 0.01;
+                currentpanel = 3;
+                console.log("panel 3");
+                audio2.pause();
+                audio4.pause();
+                audio3.play();
+
+                if(window.scrollY > 1400 & window.scrollY < 1900){
+
+                    if (window.scrollY > lastScrollPos & audio3.volume > 0.0 & audio3.volume < 1.0){
+                        audio3.volume += volumeChangeAmount;
+                    }
+                    
+                    if(window.scrollY < lastScrollPos & audio3.volume > 0.0 & audio3.volume < 1.0){
+                        audio3.volume -= volumeChangeAmount;
+                    }
+                }
+
+                if(window.scrollY > 1900 & window.scrollY < 2300){
+
+                    if (window.scrollY > lastScrollPos & audio3.volume > 0.0 &  audio3.volume < 1.0){
+                        audio3.volume -= volumeChangeAmount;
+                    }
+                    
+                    if(window.scrollY < lastScrollPos & audio3.volume > 0.0 & audio3.volume < 1.0){
+                        audio3.volume += volumeChangeAmount;
+                    }
+                }
+
+                if(!ticking){
+                    lastScrollPos = window.scrollY;
+                    ticking = true;
+                }
+            ticking = false; 
+
+            }else if(window.scrollY > 2300 & window.scrollY < 2811){
+                audio3.volume = 0.1;
+                currentpanel = 4;
+                console.log("panel 4");
+                audio3.pause();
+                audio4.play();
+
+                if(window.scrollY > 2300 & window.scrollY < 2811){
+
+                    if (window.scrollY > lastScrollPos & audio4.volume > 0.0 & audio4.volume < 1.0){
+                        audio4.volume += volumeChangeAmount;
+                    }
+                    
+                    if(window.scrollY < lastScrollPos & audio4.volume > 0.0 & audio4.volume < 1.0){
+                        audio4.volume -= volumeChangeAmount;
+                    }
+                }
+
+
+                if(!ticking){
+                    lastScrollPos = window.scrollY;
+                    ticking = true;
+                }
+                ticking = false; 
+            }
+        });
+
+        
+
+        if(currentpanel == 1){
+            audio1.play();
+            }else if( currentpanel == 2){
+                audio2.play();
+                }else if( currentpanel == 3){
+                    audio3.play();
+                }
+    </script>
+
+</body>
 </html>
