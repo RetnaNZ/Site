@@ -26,5 +26,7 @@ searchButton.addEventListener('click', function(){
         document.open('.\\Expense Tracker\\index.html','', 'noopener=true')
     }else if(searchInput.value == 'scroll'){
         document.open('.\\Scrolling\\index.html','', 'noopener=true')
+    }else if(searchInput.value == 'expand'){
+        document.open('.\\Expand\\index.html','', 'noopener=true')
     }
 });
