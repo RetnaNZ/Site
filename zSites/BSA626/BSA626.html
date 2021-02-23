@@ -4,9 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="BSA626styles.css">
     <title>BSA626</title>
 </head>
 <body>
-    This is BSA626
+
+<div id="mainContainer">
+
+    <div id="header">
+        <div></div>
+
+        <div>
+            <h1>BSA626 Character Animation</h1>
+        </div>
+
+        <div></div>
+
+    </div>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openProject(event, 'General')">General</button>
+        <button class="tablinks" onclick="openProject(event, 'Bashful')" id="defaultOpen">Bashful</button >
+        <button class="tablinks" onclick="openProject(event, 'Solo')">Solo</button>
+    </div>
+        <!-- General Content Tab-->
+    <div id="General" class="tabcontent">
+        <h3>This is the General tab</h3>
+
+    </div>
+
+        <!-- Bashful Content Tab-->
+    <div id="Bashful" class="tabcontent">
+
+        <div id="landing">
+            <img src='.\images\bashfulIMG1.jpg' alt="landingPage">
+        </div>
+
+        <div class="blog">
+            <div class="date">
+                <h3>9.2.2021</h3>
+            </div>
+            <div class="blog-title">
+                <h2>The Beginning</h2>
+            </div>
+            
+            <div>
+                <p>PROJECT:
+                    <br/>
+                    <br/>
+                    For this project I will build a high quality intro cinematic for a game called "bashful".  Simple, Clean and focused on the character and what he does.
+                    <br/>
+                    <br/>
+                    <br/>
+                    The mechanics of the game is to "push the characters buttons" via clicking the character enough to make him/her/it so annoyed that he/she/it will burst out in anger to start destroying everything and anything in its way.
+                    <br/>
+                    <br/>
+                    <br/>
+                    This game idea was inspired by the music video "The Verve - Bitter Sweet Symphony". and looking at the Elmo puppet in the classroom.
+                    <br/>
+                    <br/>
+                    You can watch the video <a href="https://www.youtube.com/watch?v=1lyu1KKwC74" style="font-size: 1.5rem;">here</href></a>
+                    
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+        <!-- Solo Content Tab-->
+    <div id="Solo" class="tabcontent">
+        <h3>This is the solo tab</h3>
+    </div>
+
+
+
+</div>
+<script src="app.js"></script>
+
+<script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+    
 </body>
 </html>
