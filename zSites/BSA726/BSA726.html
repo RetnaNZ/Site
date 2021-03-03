@@ -5,37 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
-    <title>BSA726</title>
+    <title>Advanced Animation</title>
 </head>
 <body>
     <div id="masterContainer">
-
-        <div class="landing">
-            <h1 id="BaloonText" >Advanced Animation</h1>
-            <p>Come take a look at the work we are doing!</p>
+        <div class="header">
+            <div class="logo">
+                <h2>RetnaNZ</h2>
+                <h4>Work from my time at The Southern Institute of Technology</h4>
+            </div>
+            <div class="menu">
+                <h2>contact</h2>
+                <h2>|</h2>
+                <h2>about</h2>
+                <h2>|</h2>
+                <h2>news</h2>
+                <h2></h2>
+            </div>
         </div>
-		
-		<div class="onePage gridCenter">
 
-            <div class="panel1 flexCenter">
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider"></span>
-                  </label>
-                <h1>Fur/Hair</h1>
-            </div>
-            <div class="panel2 flexCenter">
-                <h1>Cloth</h1>
-            </div>
-            <div class="panel3 flexCenter">
-                <h1>Fluid</h1>
-            </div>
-            <div class="panel4 flexCenter">
-                <h1>VFX</h1>
+        <div class="landing" id="landing">
+
+            <a onclick="moveBack()" href="#" class="previous round">&#8249;</a>
+            <a onclick="moveForward()" href="#" class="next round">&#8250;</a>
+        </div>
+
+        <div class="personal">
+            <h1>What have we been working on?</h1>
+        </div>
+
+        <div class="page2 adjustableGrid">
+            <div class="furPanel Panels">
+                <div class="buttonTitle">
+                    <h1>fur/hair</h1>
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
             </div>
 
-		</div>
+            <div class="clothPanel Panels">
+                <div class="buttonTitle">
+                    <h1>cloth</h1>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
+            </div>
+            
+            <div class="FXPanel Panels">
+                <div class="buttonTitle">
+                    <h1>particle FX</h1>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
+            </div>
+
+            <div class="fluidPanel Panels">
+                <div class="buttonTitle">
+                    <h1>fluid</h1>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
+            </div>
+
+            <div class="environmentPanel Panels">
+                <div class="buttonTitle">
+                    <h1>environments</h1>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
+            </div>
+
+            <div class="sculptingPanel Panels">
+                <div class="buttonTitle">
+                    <h1>sculpting</h1>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="personal">
+            <h1>Personal Favorites</h1>
+        </div>
+
+        <div class="page3 twoPanel">
+            <div class="characterPanel Panels"></div>
+            <div class="creaturePanel Panels"></div>
+        </div>
+
+        <div class="footer twoPanel">
+            <div class="personal">
+                <h1>a very special thanks to</h1>
+                <img src="./images/SIT_Logo.png" alt="Sitlogo" width="100%">
+            </div>
+
+            <div class="contact">
+                <h2>Contact Information:</h2>
+
+
+                <h3>Email : <a href="mailto: Nat_Pennington@hotmail.co.nz">Nat_Pennington@hotmail.co.nz</h3></a>
+                <h3>Phone : (+64) 21-0806-4848</h3>
+
+            </div>
+        </div>
     </div>
 	
 	<script src="./app.js"></script>
