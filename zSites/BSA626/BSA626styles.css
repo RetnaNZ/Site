@@ -3,6 +3,10 @@ body{
     margin: 0px;
 }
 
+
+
+
+
 /* Style the tab */
 .tab {
     overflow: hidden;
@@ -138,6 +142,9 @@ body{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
   background-color: white;
+  background-image: url("./images/Bashfullittleguy.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 
 .contents ul {
@@ -155,6 +162,44 @@ body{
 
 }
 
+.page2{
+  background-image: url("./images/Bashfullittleguy2.png"), url("./images/BashfulCursor.png");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+}
+
+.page3{
+  background-image: url("./images/Bashfullittleguy3.png");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.page3 .textBlock{
+  padding-bottom: 150px;
+}
+
+.page4{
+  margin-top: 50px;
+}
+.page4 .title{
+  padding-top: 50px;
+}
+
+.page7{
+  background-image: url("./images/Bashfullittleguy5.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.imageOnTop{
+  height: 15vh;
+  background-image: url("./images/Bashfullittleguy4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 20px;
+}
 .flexboxCenterScreen{
   display: flex;
   flex-direction: column;
@@ -168,12 +213,6 @@ body{
   text-decoration: underline;
 }
 
-.illustration1{
-  background-image: url("./images/bashfulBackground.png");
-  background-size:100%;
-  background-position: top;
-  background-repeat: no-repeat;
-}
 
 .speil{
   text-align: center;
@@ -202,15 +241,68 @@ body{
 
 }
 
-.page2 h1, .page3 h1{
-}
 
 .page2, .page5{
   background-color: white;
 
 }
 
-.page3 , .page4{
+.page3 , .page4 , .page7{
   background-color: rgb(98, 229, 206);
 
 }
+
+@media only screen and (max-width: 1366px){
+  body{width: 100%; 
+    padding: 0px;
+    margin: 0 auto;
+    font-size: 100%;}
+
+  #header{
+    height: 2vh;
+  }
+  .tab button{width: 100%;}
+
+  #Bashful{width: 80%;}
+  .twoPanel{flex-wrap: wrap; padding-left: 0px;}
+
+  .threePanel{
+    display: grid;
+  
+    gap: 10px;
+    grid-template-columns: repeat( auto-fit, minmax(150px, .5fr) );
+    padding-bottom: 20px;
+  }
+  iframe{
+    width: 100%;
+    height: 500px;
+  }
+
+ h1 ,h2 ,h3{font-size: 100%;}
+
+}
+
+@media only screen and (max-width: 768px){
+  body{width: 100%; 
+    padding: 0px;
+    margin: 0 auto;
+    font-size: 80%;}
+  #Bashful{width: 80%;}
+  .twoPanel{flex-wrap: wrap; padding-left: 0px;}
+
+  .threePanel{
+    display: grid;
+  
+    gap: 10px;
+    grid-template-columns: repeat( auto-fit, minmax(100px, .5fr) );
+    padding-bottom: 20px;
+  }
+  iframe{
+    width: 100%;
+    height: 300px;
+  }
+
+ h1 ,h2 ,h3{font-size: 100%;}
+
+}
+

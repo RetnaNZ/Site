@@ -14,7 +14,6 @@ body{
 
     font-size: 3rem;
     color:floralwhite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     background-image: url("./images/HDRI.jpg");
     background-position: center;
@@ -32,14 +31,31 @@ body{
 }
 
 .gridCenter{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	align-items: center;
-	justify-content: center;
+	display: flex;
 	
-	text-align: center;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding-top: 5vh;
 }
 
 #BaloonText{
-	color: red;
+    font-size: 300%;
+}
+
+.panel1 , .panel2 , .panel3, .panel4{
+    width: 100%;
+    background-image: url("./images/furballFloating2.png");
+    background-size: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+input:checked .gridCenter div{
+    width: 500%;
+    transition: width 1s;
+    transition-timing-function: ease-out;
 }
