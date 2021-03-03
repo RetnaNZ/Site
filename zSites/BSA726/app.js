@@ -5,7 +5,7 @@ var backgroundIMG = document.getElementById('landing');
 
 var currentBackground = 0;
 
-let listOfBackgrounds = ["url(./images/HDRI.jpg)","url(./images/furballFloating.png)","url(./images/SIT_Logo.png)"];
+let listOfBackgrounds = ["url(./images/HDRI.jpg)","url(./images/furballFloating.png)","url(./images/furballFloating2.png)"];
 
 function moveBack(){
     
