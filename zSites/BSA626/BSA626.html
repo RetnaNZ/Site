@@ -758,6 +758,117 @@
             </div>
         </div>
 	
+	<div class="blog blog-22">
+            <div class="date">
+                <h3>3.5.2021</h3>
+            </div>
+            <div class="blog-title">
+                <h2>FUR/HAIR part 2</h2>
+            </div>
+            
+            <div class="blog-content">
+                <br><br>
+				Coming back to the fur and hair. Towards the beginning of this project I was actually making some good progress into how fur is made.
+				I stopped the along the way for some reason because the results that I was getting was nothing close to what I had invisioned.
+				
+				
+				<br><br>
+				
+				I am coming back to it now hoping to fix my mistakes from the previous try. Which were.
+				
+				<br><br>
+				
+				Not picking a clear art direction so I was beginning to lose sight of any sort of goal. This time around I have in mind a particular look and feel that I want to acomplish. which I will post into my Miro Board. here 
+				
+				<br> <br>
+				
+				https://miro.com/app/board/o9J_lVWa09w=/
+				
+				<br><br>
+				
+				I have been lookin at a few videos on youtube of quick showcases for characters that have a stong emphisis on Fur to detail their look and feel. Check them out here.
+				
+				<br><br>
+				<iframe width="90%" height="420" src="https://www.youtube.com/embed/ZVI8JBrc-bw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<iframe width="90%" height="420" src="https://www.youtube.com/embed/hLvYkHSxtKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<br><br>
+				
+				Also I thought this guy had an interesting point to mention about fur in media. He says sometimes the time and effort people put into advancing fur could be better used on bigger aspects for the film. This kind of touches on the same idea about the spirit side vs the technical side of a piece of work. Pretty cool, although he has about 50% of people disagree with his video.
+				<br><br>
+				
+				<iframe width="746" height="420" src="https://www.youtube.com/embed/Igw7kKWXiac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				
+				<br><br>
+				
+				I am a little lost for what technology is best used for fur, but maybe I will start with what is infront of me with the xGen system and branch out from there.
+				
+				<br><br>
+				
+				I had just tried to play with the preset fur builds in maya, but they do not render out with Arnold. I am not sure if I have the time to troubleshoot this at the moment as I want to see results early on in this stage. Here is a screen shot of the preset fur elements.
+				
+				<img src="./blogimages/weekten/hairxGenPreset.PNG" alt="borderlandsFur" width="90%">
+				<img src="./blogimages/weekten/hairxGenPreset2.PNG" alt="borderlandsFur" width="90%">
+				
+				<br><br>
+				
+				I have been reading throught some of the features that this 3Delight package is able to produce. I might be getting a little ahead of myself. Its might be best to stick with the xGen system for this project and on a future one we can branch out from there. Fur is a major stage for me on this project and I need to spend all the time I can to understand the in's and outs of fur/hair generation.
+				
+				Check some of their fur.
+				
+				<br><br>
+				
+				<img src="./blogimages/weekten/3Delight.jpg" alt="borderlandsFur" width="90%">
+				
+				<br><br>
+				
+				Did some experimentation with the xGen systems, something I found was the groomable splines is great for short fur builds. <br><br>
+				using the "splines" instead of the "groomable Splines" both have different uses.
+				
+				<div class="blog-title">
+                <h2>FUR/HAIR DAY2</h2>
+            	</div>
+				<br>
+				Have been exploring how the hair is distributed along the mesh.<br>
+				
+				It looks like the maya is looking at the UV locations and placing along he surface normals with a mathematical formula.<br>
+
+				Here is an example of what selecting the faces before creating the xGen Description.<br>
+<br>
+				<img src="./blogimages/weekten/HairDescriptionUsingUV.PNG" alt="borderlandsFur" width="90%"><br>
+<br>
+				And here is an example of what happens when selecting the entire object but using only a certian amount of splines.<br>
+<br>
+				<img src="./blogimages/weekten/HairDescriptionUsingUV_forgot.PNG" alt="borderlandsFur" width="90%">
+				<img src="./blogimages/weekten/HairDescriptionUsingUV_forgot2.PNG" alt="borderlandsFur" width="90%"><br>
+<br>
+				One other thing that I have found with mucking around on the xGen system, is that sometimes the fur system wont render unless you save the scene and "Export patch for Batch Render". Still things I dont quite understand about the xGen system.<br>
+<br>
+				I am now going to experiment with the cards to render out the hair/fur because this first style is not accomplishing the look and feel I am after just yet. I have a few ideas of how I might be able to accomplish it with the current splines, but for the game development things I don't believe they render out using splines.<br>
+<br>
+				Now been using the pencil curve tool to groom the guides and once I am happy with how the curves look, I then convert them from curves to guides. Looking through the settings aswell has given me a better understanding of what effects you can come up with.<br><br>
+				
+				<img src="./blogimages/weekten/Fur_with_pencil_tool_curves.PNG" alt="borderlandsFur" width="90%">
+				<img src="./blogimages/weekten/Fur_with_pencil_tool_curves_settings.PNG" alt="borderlandsFur" width="90%">
+				<img src="./blogimages/weekten/Fur_with_pencil_tool_curves_settings2.PNG" alt="borderlandsFur" width="90%">
+				
+				<br><br>
+				
+				Some pretty interesting results with this tool so far. Will keep yah posted.<br>
+<br>
+				<img src="./blogimages/weekten/Animwires.PNG" alt="borderlandsFur" width="90%">
+				<img src="./blogimages/weekten/Animwires2.PNG" alt="borderlandsFur" width="90%"><br>
+<br>
+				Played a bit with the anim wire system for the xGen hair. It turned out to be quite annoying as the nHair system did not attach to the xGen guides. But after starting again, the results started working again.<br>
+<br>
+				But this was a good day well spent. I will do some character rework later tonight and try my best to put some more fur on the character. Will keep yah posted.
+
+            </div>
+        </div>
+	
+	
+	
 
 
     </div>
