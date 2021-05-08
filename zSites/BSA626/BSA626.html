@@ -870,6 +870,109 @@
             </div>
         </div>
 	
+		<div class="blog blog-23">
+            <div class="date">
+                <h3>8.5.2021</h3>
+            </div>
+            <div class="blog-title">
+                <h2>FUR/HAIR part 3</h2>
+            </div>
+            
+            <div class="blog-content">
+                
+OH MY GOSH! <br>
+<br>
+
+
+What a painful learning experience I have had over the past 2 days. I have been constantly hitting my head against this xGen simulation not being able to batch render how I want. <br>
+<br>
+
+
+But alas, I have overcome the issue and am all the better for it. It feels like I have just been to the brain gym and done a few sets too many.<br>
+<br>
+
+
+So the background story behind this all started when I have gone back a few steps to rework my bashful project. I was feeling like my project was not staying true to the course I had set for myself at the beginning, as I slowly changed my project's view because I was having difficulties getting the fur to work how I wanted it to.<br>
+<br>
+
+
+Around the time just before the holiday I had begun noticing that my learning had been slowing down and due to this I was also beginning to not enjoy the course as much, So I made a choice when I came back after the holiday to challenge myself to get over this hurdle and tackle the problem at hand instead of going around it.<br>
+<br>
+
+
+So to bring things closer to where we are now. About two days ago I started with the xGen process from where I had left off previously, it was a little confusing to begin with after not touching it for so long. But after a few attempts I was able to groom my models how I liked.<br>
+<br>
+
+
+One of the first issues I was having from time to time was that my renders were not showing up in the Arnold render view, This was simple enough to fix, I simply had to save my scene before rendering it and that would normally fix the problem.<br>
+				
+				<img src="./blogimages/weekeleven/intersting_hair_rendered.PNG" alt="RenderThroughArnold" width="90%">
+<br>
+
+
+The next issue I ran into wass the render was not coming out with the fur if I batch rendered it. I was a little confused as to why it comes out fine in the render, but not in a batch Render, arn’t they the same thing, just multiple times?
+<br>
+<br>
+
+Turns out that the Renderer Arnold is a completely separate piece of software, so the difference being, when you render the scene in maya, Arnold render view is able to get all the data locally from the Maya document. Compared to  when you send the data to the Arnold externally, it does not have the computed information of the Hair/Fur. This is where Caching (pre calculating) and xGen’s inbuilt patch to Batch Render comes into play.
+<br>
+<br>
+
+After kinda understanding this a little better, I was able to Export Patches to Batch Render, or in other words, send the data of the Hair Description to Arnold in a packet of data. So I hit batch render and I had a single frame of my fur rendered Externally from Maya and into Arnold on its own! WOOHOO! 
+<br>
+<br>
+
+My time of troubleshooting for the first day was over. I had gone home and slept it off. Funny enough, that night I woke up in the middle of the night with my mind thinking about batch rendering an animation.  Of the xGen system.
+So! Now day two of trouble shooting and getting things to work. Remember at this stage none of this really made sense and I was continually having to go back and write down what it was exactly that I was trying to accomplish. Sometimes the questions had easy answers and other times I couldn’t think straight.
+<br>
+<br>
+
+
+
+About 50 Batch renders in and still no results like I was looking for. I took this approach.
+<br>
+				<img src="./blogimages/weekeleven/renderTrals.PNG" alt="TryingToRender" width="90%">
+<br>
+
+Can I Batch render a single frame of fur.
+Can I Rotate my geo and render a different frame of fur position.
+Can I Add dynamic curves and see them working in Maya
+Can I see the dynamic curves out of Batch Render
+<br>
+<br>
+
+I found through this process, I was able to trouble shoot the right things at the right stages. And finally I had a result! I rendered out a simulated version of my xGen Groom!
+<br>
+<br>
+
+I came home and tried it on my personal pc.
+<br>
+<br>
+
+IT DIDN'T WORK!?
+<br>
+<br>
+
+Until later I found that there was a space in my files directory. Which was the culprit of 4 hours or trial and error.
+<br>
+				<img src="./blogimages/weekeleven/space.PNG" alt="SpaceDirectory" width="90%">
+<br>
+
+
+But I have it working now and so much better for all the troubles.
+<br>
+<br>
+
+Time to build and groom my character how I want now, then export him out in an animation.
+<br>
+<br>
+
+Yay me!
+<br>
+<br>
+
+            </div>
+        </div>
 	
 	
 
