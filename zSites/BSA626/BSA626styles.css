@@ -4,7 +4,9 @@ body{
 }
 
 
-
+#FINAL {
+	z-index: 1;
+}
 
 
 /* Style the tab */
