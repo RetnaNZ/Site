@@ -4,22 +4,19 @@ body{
 }
 
 #main-container{
-	height: 100vh;	
-	background-image: url("./content/images/Front_Page.png");
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../content/images/about_page.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-
-		
-
+	
 }
 
 #header{
 	width:100%;
-
 }
 
 .icon{
-	
 	width: 50%;
 	float:left;
 	
@@ -28,12 +25,10 @@ body{
 }
 
 .menu{
-	
 	float:right;
 	
 	padding-top:70px;
 	padding-right: 60px;
-
 }
 
 button {

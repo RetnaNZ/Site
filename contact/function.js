@@ -6,21 +6,21 @@ const menuButton_contact = document.getElementById('contact');
 const iconButton = document.getElementById('icon_home');
 
 iconButton.onclick = function() {
-	location.href = "index.html";
+	location.href = "../index.html";
 }
 
 menuButton_home.onclick = function() {
-	location.href = "index.html";
+	location.href = "../index.html";
 }
 
 menuButton_about.onclick = function() {
-	location.href = "./about/aboutindex.html";
+	location.href = "../about/aboutindex.html";
 }
 
 menuButton_games.onclick = function() {
-	location.href = "./games/gamesindex.html";
+	location.href = "../games/gamesindex.html";
 }
 
 menuButton_contact.onclick = function() {
-	location.href = "./contact/contactindex.html";
+	location.href = "./contactindex.html";
 }
