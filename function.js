@@ -36,3 +36,35 @@ function EmailInput(){
 function EmailSubmit(){
 	debug.log(emailInput.value);
 }
+
+function Game_1(){
+	location.href = "./games/gamesindex.html";
+}
+
+function Game_2(){
+	location.href = "./games/gamesindex.html";
+}
+
+function Game_3(){
+	location.href = "./games/gamesindex.html";
+}
+
+function Game_4(){
+	location.href = "./games/gamesindex.html";
+}
+
+function youtube(){
+	location.href="https://www.youtube.com/channel/UC3DlwulmKD2_5hSQW-8BZpQ";
+}
+
+function twitter(){
+	location.href="https://twitter.com/retnastudios"
+}
+
+function instagram(){
+	location.href="https://www.instagram.com/retnastudios/"
+}
+
+function artstation(){
+	location.href="https://www.artstation.com/retnastudios"
+}

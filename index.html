@@ -4,7 +4,8 @@
     <meta charset="utf-8">
 
     <link rel="stylesheet" href="styles.css">
-	  <link rel="stylesheet" href="blogs.css">
+	<link rel="stylesheet" href="blogs.css">
+	<link rel="stylesheet" href="games.css">
 	  
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,20 +17,29 @@
   <body>
     <div id="main-container">
 		
+		<div class="socials top_socials">
+					<button class="twitter" onClick="twitter()"></button>
+					<button class="instagram" onClick="instagram()"></button>
+					<button class="youtube" onClick="youtube()"></button>
+					<button class="artstation" onClick="artstation()"></button>
+				</div>
+		
 		<div class="header-background">
 			<div id="header">
 				<div id="icon_home" class="icon">
 
 				</div>
+				
 
 				<div class="menu">
 					<button id="home" class="home" style="font-weight: bolder">home</button>
 					<button id="about" class="about">about</button>
 					<button id="games" class="games">games</button>
 					<button id="contact" class="contact">contact</button>
-
 				</div>
+				
 			</div>
+			
 		</div>
 		
 		<div id="landing">
@@ -39,10 +49,20 @@
 		<div id="game_section">
 			<h2>some projects we have worked on</h2>
 			<div class="game_list">
-				<div class="game_block game_1" id="game_1">game 1 PLACEHOLDERS</div>
-				<div class="game_block game_2" id="game_2">game 2 PLACEHOLDERS</div>
-				<div class="game_block game_3" id="game_3">game 3 PLACEHOLDERS</div>
-				<div class="game_block game_4" id="game_4">game 4 PLACEHOLDERS</div>
+				
+				<div class="game_block game_1" id="game_1">Genesis jar
+					<div class="game_block_spiel">Retell the story of Adam and Eve. 
+						<button class="game_moreInfo" onClick="Game_1();"> read more </button>
+					</div>
+				</div>
+				
+				<div class="game_block game_2" id="game_2">Bashful
+					<div class="game_block_spiel">Don't get our furry buddy angry, or pay the price!
+						<button class="game_moreInfo" onClick="Game_2();"> read more </button>
+					</div>
+				</div>
+				
+				
 			</div>
 			
 		</div>
@@ -113,9 +133,10 @@
 					</p>
 
 				<div class="socials">
-					<button class="twitter"></button>
-					<button class="instagram"></button>
-					<button class="youtube"></button>
+					<button class="twitter" onClick="twitter()"></button>
+					<button class="instagram" onClick="instagram()"></button>
+					<button class="youtube" onClick="youtube()"></button>
+					<button class="artstation" onClick="artstation()"></button>
 				</div>
 			</div>
 
