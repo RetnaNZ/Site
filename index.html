@@ -4,32 +4,124 @@
     <meta charset="utf-8">
 
     <link rel="stylesheet" href="styles.css">
-
+	  <link rel="stylesheet" href="blogs.css">
+	  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&display=swap" rel="stylesheet">
+	  
     <title>Retna.co.nz</title>
   </head>
 	
   <body>
     <div id="main-container">
 		
-		<div id="header">
-			<div class="icon">
-				<button id="icon_home" class="icon_home" style="width: 550px; height: 100px;"> </button>
-			</div>
-			
-			<div class="menu">
-				<button id="home" class="home"></button>
-				<button id="about" class="about"></button>
-				<button id="games" class="games"></button>
-				<button id="contact" class="contact"></button>
-				
+		<div class="header-background">
+			<div id="header">
+				<div id="icon_home" class="icon">
+
+				</div>
+
+				<div class="menu">
+					<button id="home" class="home" style="font-weight: bolder">home</button>
+					<button id="about" class="about">about</button>
+					<button id="games" class="games">games</button>
+					<button id="contact" class="contact">contact</button>
+
+				</div>
 			</div>
 		</div>
 		
 		<div id="landing">
+
+		</div>
+		
+		<div id="game_section">
+			<h2>some projects we have worked on</h2>
+			<div class="game_list">
+				<div class="game_block game_1" id="game_1">game 1 PLACEHOLDERS</div>
+				<div class="game_block game_2" id="game_2">game 2 PLACEHOLDERS</div>
+				<div class="game_block game_3" id="game_3">game 3 PLACEHOLDERS</div>
+				<div class="game_block game_4" id="game_4">game 4 PLACEHOLDERS</div>
+			</div>
+			
+		</div>
+		
+		<div id="slogan">
+			<div class="about_us">
+			
+				<h2>Our mission</h2>
+				
+				<p>A Game development studio based out of Invercargill, New Zealand. <br>
+					We are focused on making games which make you say "hmm."</p><br>
+
+				
+			</div>
+			<div class="bashful"></div>		
+		</div>
+		
+		<div class="doris_me"><h1> what have we been up to?</h1></div>
+		<div id="blogs">
+			<div class="blog_post blog_1"> 
+				<div class="blog_image"></div>
+				<div class="blog_title"> we are off to NZGDC</div>
+				<div class="blog_tag"> the team from retna studios is heading to New Zealand game developers convention!<br>
+
+					<div><button onClick="BlogPost();" style="float: right; padding: 10px;"> read more </button></div>
+				</div>
+			</div>
+
+			<div class="blog_post blog_2"> 
+				<div class="blog_image"></div>
+				<div class="blog_title"> the website is up</div>
+				<div class="blog_tag"> We have been working up a storm to get some our name out there, the website is looks noice!<br>
+
+					<div><button onClick="BlogPost();" style="float: right; padding: 10px;"> read more </button></div>
+				</div>
+			</div>
+			
+			<div class="blog_post blog_3"> 
+				<div class="blog_image"></div>
+				<div class="blog_title"> Dunedin VR trip!</div>
+				<div class="blog_tag"> retna studios had the awesome oppertunity to go try out some Virtual Reality gameplay!<br>
+
+					<div><button onClick="BlogPost();" style="float: right; padding: 10px;"> read more </button></div>
+				</div>
+			</div>
 		
 		</div>
 		
-			<h3 style="text-align: center; z-index: -10; color: white"> website is a work in progress</h3>
+		<div class="spacer"></div>
+		<div id="news">
+			<div class="signupBox">
+				<input id="email_input" class="email_input" type="text" value="Your Email" onClick="EmailInput()">
+				<button id="submitEmail"> sign me up</button>
+			</div>
+			<h1 style="text-align: center; font-size: 3rem">sign up to our newsletter</h1>
+		</div>
+		
+		<div id="footer">
+			<div class="footerimage"></div>
+			<div class="footercontact">
+				<div>
+					<h1>contact us</h1>
+				</div>
+
+					<p>
+						retnastudios@gmail.com<br>
+						(+64) 21-0806-4848<br>
+					</p>
+
+				<div class="socials">
+					<button class="twitter"></button>
+					<button class="instagram"></button>
+					<button class="youtube"></button>
+				</div>
+			</div>
+
+		</div>
+		
+
 
       <script src="./function.js"></script>
     </div>
