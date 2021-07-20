@@ -4,6 +4,10 @@
 	
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="team.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&display=swap" rel="stylesheet">
 	
 <meta charset="utf-8">
 <title>retnastudios | about</title>
@@ -14,6 +18,14 @@
 	
 <div id="main-container">
 		
+			
+	<div class="socials top_socials">
+		<button class="twitter" onClick="twitter()"></button>
+		<button class="instagram" onClick="instagram()"></button>
+		<button class="youtube" onClick="youtube()"></button>
+		<button class="artstation" onClick="artstation()"></button>
+	</div>
+	
 		<div class="header-background">
 			<div id="header">
 				<div id="icon_home" class="icon">
@@ -22,7 +34,7 @@
 
 				<div class="menu">
 					<button id="home" class="home">home</button>
-					<button id="about" class="about" style="font-weight: bolder">about</button>
+					<button id="about" class="about" style="font-weight: bolder; text-decoration:underline;	text-decoration-color: #4ccc4f;">about</button>
 					<button id="games" class="games">games</button>
 					<button id="contact" class="contact">contact</button>
 
@@ -54,41 +66,63 @@
 	
 	<div id="the_team_panel">
 		<div class="the_team_title"><h1>meet the team</h1></div>
-		<div class="the_team_panels">		
+		<div id="the_team_panels">		
 			
-			<div id="member_1" class="member member_1">
-				<div class="member_image"></div>
-				<div class="member_name"><h2>nathaniel pennington</h2></div>
+			<div  class="member member_1">
+				<div id="member_1" class="member_image"></div>
+				<div class="member_name"><h2>"Nate-dog"</h2></div>
 				
+			</div>
+
+			
+						
+			<div class="member member_2">
+				<div id="member_2"  class="member_image"></div>
+				<div class="member_name"><h2>"johnny-2-pie"</h2></div>			
+			</div>
+
+			
+						<div  class="member member_3">
+				<div  id="member_3" class="member_image"></div>
+				<div class="member_name"><h2>"rach"</h2></div>			
 			</div>
 			<div id="member1_info">
 				<h2>nathaniel pennington/ founder</h2>
-				<p>This is the place where we write about the team members story</p>
-			</div>
-			
-						
-			<div id="member_2" class="member member_2">
-				<div class="member_image"></div>
-				<div class="member_name"><h2>john ward</h2></div>			
+				<p>he is the man, the myth, the ledgend.</p>
 			</div>
 			<div id="member2_info">
 				<h2>john ward/ Audio Engineer</h2>
 				<p> john is a top notch lad who doesn't mind getting his hands dirter.</p>
 			</div>	
-			
-						<div id="member_3" class="member member_3">
-				<div class="member_image"></div>
-				<div class="member_name"><h2>rachel garside</h2></div>			
-			</div>
 			<div id="member3_info">
 				<h2>rachel garside/ 3D Artist</h2>
-				<p> rachel is our go to warrior when things get a little tricky, she uses her magic 3D skills to get things</p>
+				<p> rachel is our go to warrior when things get a little tricky, she uses her magic 3D skills to get things done!</p>
 			</div>	
 			
-
-
-			
 		</div>
+	</div>
+
+		<div id="footer">
+			<div class="footerimage"></div>
+			<div class="footercontact">
+				<div>
+					<h1>contact us</h1>
+				</div>
+
+					<p>
+						retnastudios@gmail.com<br>
+						(+64) 21-0806-4848<br>
+					</p>
+
+				<div class="socials">
+					<button class="twitter" onClick="twitter()"></button>
+					<button class="instagram" onClick="instagram()"></button>
+					<button class="youtube" onClick="youtube()"></button>
+					<button class="artstation" onClick="artstation()"></button>
+				</div>
+			</div>
+		</div>
+
 	</div>
 
       <script src="./function.js"></script>

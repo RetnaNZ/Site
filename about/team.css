@@ -1,9 +1,9 @@
 /* CSS Document */
-
 .member{
-
+	margin: 10px;
+	background-color: black;
 	height: 50vh;
-	width: 100%;
+	width: 30%;
 	
 	text-align: center;
 }
@@ -11,19 +11,24 @@
 .member_image{
 	height: 100%;
 	width: 100%;
-		
-	background-size: contain;
+	
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	
 	opacity: .75;
 }
 
+
+
 #member1_info, #member2_info, #member3_info{
+	
 	display:none;
 	background-color: #727188;
 	margin: 0 auto;
-	width: 100%;
+	width: 0;
+
+	padding: 0 20px;
 	font-size: 20px;
 	
 }

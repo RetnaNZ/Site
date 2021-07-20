@@ -5,6 +5,8 @@ const menuButton_contact = document.getElementById('contact');
 
 const iconButton = document.getElementById('icon_home');
 
+const team_panels = document.getElementById('the_team_panels');
+
 const member1 = document.getElementById('member_1');
 const member2 = document.getElementById('member_2');
 const member3 = document.getElementById('member_3');
@@ -34,27 +36,33 @@ menuButton_contact.onclick = function() {
 	location.href = "../contact/contactindex.html";
 }
 
-member1.addEventListener("mouseover", function(){
+member1.addEventListener("click", function(){
 	member1_info.style.display = "block";
+	member1_info.style.width= "100%";
 });
 
 member1.addEventListener("mouseleave", function(){
+	member1_info.style.width= "0%";
 	member1_info.style.display = "none";
 });
 
-member2.addEventListener("mouseover", function(){
+member2.addEventListener("click", function(){
 	member2_info.style.display = "block";
+	member2_info.style.width= "100%";
 });
 
 member2.addEventListener("mouseleave", function(){
+	member2_info.style.width= "0%";
 	member2_info.style.display = "none";
 });
 
-member3.addEventListener("mouseover", function(){
+member3.addEventListener("click", function(){
 	member3_info.style.display = "block";
+	member3_info.style.width= "100%";
 });
 
 member3.addEventListener("mouseleave", function(){
+	member3_info.style.width= "0%";
 	member3_info.style.display = "none";
-});
 
+});

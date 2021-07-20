@@ -39,6 +39,7 @@ function EmailSubmit(){
 
 function Game_1(){
 	location.href = "./games/gamesindex.html";
+	
 }
 
 function Game_2(){

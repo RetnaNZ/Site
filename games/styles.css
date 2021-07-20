@@ -4,13 +4,7 @@ body{
 }
 
 #main-container{
-	height: 100vh;
-	background-image: url("../content/images/games_page.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-
-		
-
+	height: 100%;
 }
 
 #header{
@@ -59,6 +53,7 @@ body{
 	border: none;
 		
 	font-family: 'Dosis', sans-serif;
+
 	color: white;
 	font-size: 30px;
 
@@ -71,7 +66,169 @@ body{
 
 
 #landing{
-	height: 90vh;
+	font-family: 'Bebas Neue', cursive;
+
+	font-size: 100px;
+	color: white;
+
+	height: 50vh;
+	padding-top:2vh;
+	background-color: #1f1f27;
+
+	background-size: cover;
+	background-repeat: no-repeat;
 	
+}
+
+#bashful{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+
+}
+
+.media{
+	width: 100%;
+}
+
+.speil h2{
+	padding-left: 5vw;
+	font-family: 'Bebas Neue', cursive;
+
+	font-size: 100px;
+
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.speil p {
+	width: 45%;
+	padding-left: 40vw;
+	font-family: 'Dosis', sans-serif;
+	font-size:55px;
+}
+
+
+#Genesis_jar{
+
+	color: white;
+	background-color: #344b39;
+
+	padding-bottom: 2vh;
+}
+
+
+#footer{
+	background-color: #3e3d50;
+	height: 30vh;
 	
+	display:flex;
+	
+	justify-content: space-around;
+	
+	padding-bottom: -20px;
+
+}
+
+.footerimage{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background-image: url("../content/images/Logo_transparent.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+	width: 50%;
+	margin: 60px;
+}
+
+.footercontact{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-size:15px;
+
+	
+	width: 50%;
+	height: 100%;
+}
+
+.footercontact p{
+	font-size:25px;
+}
+
+.socials button{
+	width: 50px;
+	height:50px;
+	
+	border-radius: 4px;
+}
+
+.twitter{
+
+	
+	background-image: url("../content/images/twitter.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+	border: none;
+}
+.instagram{
+
+	
+	background-image: url("../content/images/instagram.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+	border: none;
+}
+.youtube{
+
+	
+	background-image: url("../content/images/youtube.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+	border: none;
+}
+
+.artstation{
+
+	
+	background-image: url("../content/images/artstation.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+	border: none;
+}
+
+.twitter:hover , .youtube:hover, .instagram:hover,.artstation:hover{
+	border:2px solid #A6CDB2;
+}
+
+.top_socials{
+
+	position: absolute;
+	right: 0;
+	background-color: #3e3d50;;
+	text-align: right;
+	padding: 10px;
+}
+.top_socials button{
+	opacity: 60%;
+	width: 40px;
+	height: 40px;
+	
+
+}
+
+.top_socials button:hover{
+	opacity: 100%;
 }
