@@ -66,3 +66,19 @@ member3.addEventListener("mouseleave", function(){
 	member3_info.style.display = "none";
 
 });
+
+function youtube(){
+	location.href="https://www.youtube.com/channel/UC3DlwulmKD2_5hSQW-8BZpQ";
+}
+
+function twitter(){
+	location.href="https://twitter.com/retnastudios"
+}
+
+function instagram(){
+	location.href="https://www.instagram.com/retnastudios/"
+}
+
+function artstation(){
+	location.href="https://www.artstation.com/retnastudios"
+}

@@ -24,3 +24,19 @@ menuButton_games.onclick = function() {
 menuButton_contact.onclick = function() {
 	location.href = "../contact/contactindex.html";
 }
+
+function youtube(){
+	location.href="https://www.youtube.com/channel/UC3DlwulmKD2_5hSQW-8BZpQ";
+}
+
+function twitter(){
+	location.href="https://twitter.com/retnastudios"
+}
+
+function instagram(){
+	location.href="https://www.instagram.com/retnastudios/"
+}
+
+function artstation(){
+	location.href="https://www.artstation.com/retnastudios"
+}

@@ -19,6 +19,10 @@
 	opacity: .75;
 }
 
+.member_name h2{
+	margin: 0;
+	padding: 0;
+}
 
 
 #member1_info, #member2_info, #member3_info{
@@ -40,16 +44,25 @@
 
 .member_1 .member_image{
 	background-image: url("./teamIMG/nathaniel.jpg");
-
 }
 
 .member_2 .member_image{
 	background-image: url("./teamIMG/nathaniel.jpg");
-
 }
 
 
 .member_3 .member_image{
 	background-image: url("./teamIMG/nathaniel.jpg");
+}
 
+.business{
+
+}
+
+.art{
+	
+}
+
+.audio{
+	background-color: #4ccc4f;
 }
