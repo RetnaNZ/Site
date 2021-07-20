@@ -1,0 +1,50 @@
+/* CSS Document */
+
+.member{
+
+	height: 50vh;
+	width: 100%;
+	
+	text-align: center;
+}
+
+.member_image{
+	height: 100%;
+	width: 100%;
+		
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	opacity: .75;
+}
+
+#member1_info, #member2_info, #member3_info{
+	display:none;
+	background-color: #727188;
+	margin: 0 auto;
+	width: 100%;
+	font-size: 20px;
+	
+}
+
+.member_image:hover{
+	opacity: 1;	
+	transition: opacity .4s;
+}
+
+.member_1 .member_image{
+	background-image: url("./teamIMG/nathaniel.jpg");
+
+}
+
+.member_2 .member_image{
+	background-image: url("./teamIMG/nathaniel.jpg");
+
+}
+
+
+.member_3 .member_image{
+	background-image: url("./teamIMG/nathaniel.jpg");
+
+}

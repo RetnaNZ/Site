@@ -6,16 +6,17 @@ body{
 #main-container{
 	width: 100vw;
 	height: 100vh;
-	background-image: url("../content/images/about_page.png");
-	background-size: cover;
-	background-repeat: no-repeat;
 	
 }
 
 #header{
 	width:80%;
-	height:100%;
-	margin: 0 auto;
+
+	
+	position: absolute;
+	padding-left: 10vw;
+	z-index: 10;
+
 
 }
 
@@ -70,7 +71,76 @@ body{
 
 
 #landing{
-	height: 90vh;
+	z-index: -1;
+	height: 100%;
+	background-image: url("../content/images/about_page.png");
+	background-size: contain;
+	background-repeat: no-repeat;	
 	
+	padding-left: 50vw;
+	padding-top: 10vh;
+	
+	font-family: 'Dosis', sans-serif;
+	font-size: 23px;
+	
+}
+
+.about_img{
+	width: 40%;
+	height: 150px;
+
+	padding: 0;
+	margin: 0;
+	background-image: url("../content/images/about_image.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+}
+
+.about_tag h2{
+	padding: 0;
+	margin: 0;
+	
+	color: #6c8ed3;
+}
+
+.speil{
+
+	display: flex;
+	width:80%;
+	
+	font-weight: lighter;
+
+}
+
+#the_team_panel{
+	height: 80vh;
+	
+	background-color: #3e3d50;
+	
+	font-family: 'Dosis', sans-serif;
+	color:white;
+}
+
+#the_team_panel h1{
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 400;
+	font-size: 180px;
+	
+	padding: 0;
+	margin:0;
+}
+
+#the_team_panel h1{
+	padding: 0;
+	margin:0;
+}
+
+.the_team_panels{
+	
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
 	
 }

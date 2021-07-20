@@ -15,10 +15,12 @@ body{
 }
 
 #header{
+	position:absolute;
+	z-index: 10;
 	width:80%;
 	height:100%;
-	margin: 0 auto;
 
+	padding-left: 10vw;
 }
 
 .header-background{
