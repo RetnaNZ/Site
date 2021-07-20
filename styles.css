@@ -83,14 +83,16 @@ body{
 	padding-top:2vh;
 	background-image: url("content/images/front_page.png");
 	background-size: 100%;
+	background-position: bottom right;
 	background-repeat: no-repeat;
 }
 
 #game_section{
+
 	font-family: 'Dosis', sans-serif;
 	color: black;
 	font-size: 30px;
-	width: 100%;
+
 	text-align: center;
 		
 }
@@ -198,8 +200,9 @@ body{
 
 
 #slogan{
+	display: flex;
 	background-color: #3e3d50;
-	height: 75vh;
+	min-height: 75vh;
 }
 
 .about_us{
@@ -226,9 +229,8 @@ body{
 }
 
 .bashful{
-	height:100%;
 	width:50%;
-	float: right;
+	margin: 5vw;
 	background-image: url("content/images/bashful.png");
 	background-size: contain;
 	background-position: bottom;
@@ -249,12 +251,14 @@ body{
 	margin: 15px auto;
 	
 	display: flex;
+	flex-wrap: wrap;
 
 	justify-content: center;
 	align-items: center;
 	
-	height: 50vh;
 	width: 80%;
+	min-height: 50vh;
+
 }
 
 .blog_post{
@@ -262,7 +266,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	
-	width:100%;
+	max-width: 400px;
 	height: 50vh;
 	
 	background-color: #E8E8E8;
@@ -380,7 +384,10 @@ body{
 	background-size: contain;
 	background-repeat: no-repeat;
 	
-	width: 50%;
+	width: 50vw;
+	
+	min-height: 10vh;
+
 	margin: 60px;
 }
 

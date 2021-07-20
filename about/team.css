@@ -43,11 +43,15 @@
 }
 
 .member_1 .member_image{
-	background-image: url("./teamIMG/nathaniel.jpg");
+	background-image: url("./teamIMG/nathaniel.png");
+	background-size: cover;
 }
 
 .member_2 .member_image{
-	background-image: url("./teamIMG/nathaniel.jpg");
+	background-image: url("./teamIMG/john.png");
+	background-position: top;
+	background-size: cover;
+	
 }
 
 
