@@ -7,27 +7,27 @@ const menuButton_news = document.getElementById('news');
 const iconButton = document.getElementById('icon_home');
 
 iconButton.onclick = function() {
-	location.href = "../index.html";
+	location.href = "https://www.retna.co.nz";
 }
 
 menuButton_home.onclick = function() {
-	location.href = "../index.html";
+	location.href = "https://www.retna.co.nz";
 }
 
 menuButton_about.onclick = function() {
-	location.href = "../about/aboutindex.html";
+	location.href = "../about/";
 }
 
 menuButton_games.onclick = function() {
-	location.href = "./gamesindex.html";
+	location.href = "./";
 }
 
 menuButton_contact.onclick = function() {
-	location.href = "../contact/contactindex.html";
+	location.href = "../contact/";
 }
 
 menuButton_news.onclick = function() {
-	location.href = "../news/newsindex.html";
+	location.href = "../news/";
 }
 
 function youtube(){

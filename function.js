@@ -13,27 +13,27 @@ const iconButton = document.getElementById('icon_home');
 const emailInput = document.getElementById('email_input');
 
 iconButton.onclick = function() {
-	location.href = "index.html";
+	location.href = "https://www.retna.co.nz";
 }
 
 menuButton_home.onclick = function() {
-	location.href = "index.html";
+	location.href = "https://www.retna.co.nz";
 }
 
 menuButton_about.onclick = function() {
-	location.href = "./about/aboutindex.html";
+	location.href = "./about/";
 }
 
 menuButton_games.onclick = function() {
-	location.href = "./games/gamesindex.html";
+	location.href = "./games/";
 }
 
 menuButton_contact.onclick = function() {
-	location.href = "./contact/contactindex.html";
+	location.href = "./contact/";
 }
 
 menuButton_news.onclick = function() {
-	location.href = "./news/newsindex.html";
+	location.href = "./news/";
 }
 
 function EmailInput(){
@@ -45,24 +45,24 @@ function EmailSubmit(){
 }
 
 function Game_1(){
-	location.href = "./games/gamesindex.html";
+	location.href = "./games/";
 	
 }
 
 function Game_2(){
-	location.href = "./games/gamesindex.html";
+	location.href = "./games/";
 }
 
 function Game_3(){
-	location.href = "./games/gamesindex.html";
+	location.href = "./games/";
 }
 
 function Game_4(){
-	location.href = "./games/gamesindex.html";
+	location.href = "./games/";
 }
 
 function BlogPost(){
-	location.href = "./news/newsindex.html";
+	location.href = "./news/";
 }
 
 function youtube(){

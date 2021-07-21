@@ -18,27 +18,27 @@ const member3_info = document.getElementById('member3_info');
 
 
 iconButton.onclick = function() {
-	location.href = "../index.html";
+	location.href = "https://www.retna.co.nz";
 }
 
 menuButton_home.onclick = function() {
-	location.href = "../index.html";
+	location.href = "https://www.retna.co.nz";
 }
 
 menuButton_about.onclick = function() {
-	location.href = "./aboutindex.html";
+	location.href = "../about/";
 }
 
 menuButton_games.onclick = function() {
-	location.href = "../games/gamesindex.html";
+	location.href = "../games/";
 }
 
 menuButton_contact.onclick = function() {
-	location.href = "../contact/contactindex.html";
+	location.href = "../contact/";
 }
 
 menuButton_news.onclick = function() {
-	location.href = "./newsindex.html";
+	location.href = "./";
 }
 
 member1.addEventListener("click", function(){
