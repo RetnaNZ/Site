@@ -50,7 +50,9 @@
 	
 	.menu button:hover{
 		color: #4ccc4f;
-		font-size: 2rem;
+		width: 15vw;
+		height: 10px;
+		font-size: 20px;
 	}
 	
 	#landing{
@@ -308,13 +310,19 @@
 	
 	#newsletter{
 
-		display: none;
+		display: flex;
+		height: 100%;
+	
+		margin: 0 auto;
 		padding-top: 5vh;
 		font-family: 'Dosis', sans-serif;
 		color: black;
 		font-size:30px;
 		width:100%;
 		height: 25vh;
+
+		padding-bottom: 5vh;
+
 	
 	}
 	
@@ -354,13 +362,10 @@
 	}
 	
 	#footer{
-		
+	
 		display: flex;
 		background-color: #3e3d50;
-	
-		
-	
-		
+
 		justify-content: space-around;
 		
 		padding-bottom: 20px;
@@ -465,3 +470,4 @@
 		font-size: 20%;
 	}
 
+	#mc_embed_signup{display:flex; background:#fff; clear:left; width: 90%; margin: 0 auto; height: 100%; }
