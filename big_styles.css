@@ -95,12 +95,16 @@ body{
 	color: black;
 	font-size: 30px;
 
+	width: 100%;
+
 	text-align: center;
 		
 }
 
 #game_section h2{
 	text-align: right;
+	padding: 0;
+	margin: 0 5vw;
 	
 }
 
@@ -199,6 +203,43 @@ body{
 }
 
 
+#slogan{
+	display: flex;
+	background-color: #3e3d50;
+	min-height: 75vh;
+}
+
+.about_us{
+	
+	text-align: right;
+	font-family: 'Dosis', sans-serif;
+	color: white;
+	font-size:20px;
+	
+	height:100%;
+	width:50%;
+	float: left;
+}
+
+.about_us h2{
+	margin: 0px;
+	padding-bottom: 0px;
+	margin-left: 20px;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 400;
+	font-size: 200px;
+	color: white;
+	
+}
+
+.bashful{
+	width:50%;
+	margin: 5vw;
+	background-image: url("content/images/bashful.png");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
 
 
 
@@ -377,7 +418,9 @@ body{
 	width: 50%;
 	height: 100%;
 }
-
+.footercontact h1{
+	font-size:25px;
+}
 .footercontact p{
 	font-size:25px;
 }
