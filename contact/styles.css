@@ -37,6 +37,10 @@ body{
 	background-repeat: no-repeat;
 }
 
+.icon:hover{
+	cursor: pointer;
+}
+
 .menu{
 	
 	float:right;
@@ -231,4 +235,12 @@ body{
 
 .top_socials button:hover{
 	opacity: 100%;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+h1:hover, h2:hover, h3:hover{
+	cursor:default;
 }

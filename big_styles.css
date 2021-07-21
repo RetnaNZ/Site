@@ -41,6 +41,10 @@ body{
 	background-repeat: no-repeat;
 }
 
+.icon:hover{
+	cursor: pointer;
+}
+
 .menu{
 	
 	float:right;
@@ -265,6 +269,10 @@ body{
 	width: 80%;
 	min-height: 50vh;
 
+}
+
+#blogs h2:hover{
+	cursor: pointer;
 }
 
 .blog_post{
@@ -493,5 +501,13 @@ body{
 	opacity: 100%;
 }
 
+button:hover{
+	cursor: pointer;
+}
+
+h1:hover, h2:hover, h3:hover{
+	cursor:default;
+}
 
 #mc_embed_signup{background:#fff; clear:left; width: 70%; margin: 0 auto; height: 100%; }
+

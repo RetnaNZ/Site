@@ -33,6 +33,7 @@
 .member_image:hover{
 	opacity: 1;	
 	transition: opacity .4s;
+	cursor: pointer;
 }
 
 .member_1 .member_image{

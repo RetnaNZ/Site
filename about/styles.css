@@ -152,7 +152,7 @@ width: 25%;
 
 text-align: center;
 }
-
+	
 #the_team_panels{
 	
 	width: 100%;
@@ -327,6 +327,10 @@ body{
 	background-repeat: no-repeat;
 }
 
+.icon:hover{
+	cursor: pointer;
+}
+	
 .menu{
 	
 	float:right;
@@ -564,4 +568,13 @@ body{
 	opacity: 100%;
 }
 	
+	
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+h1:hover, h2:hover, h3:hover{
+	cursor:default;
 }
