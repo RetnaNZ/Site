@@ -1,1521 +1,467 @@
-@media only screen and (max-width: 600px) {
 
+
+	#main-container{
+		height: 100%;
+
+	}
 	
-	body{
-	padding: 0;
-	margin: 0;
-}
+	#header{
 
-#main-container{
-	height: 100%;	
-}
 
-#header{
-	display: flex;
-	flex-wrap: wrap;
-	
-	justify-content: space-between;
-	width:80%;
-	height:100%;
-	margin: 0 auto;
+		justify-content: space-between;
+		width:100%;
 
-}
-
-.header-background{
-	display: flex;
-	flex-wrap:wrap;
-	width: 100vw;
-
-	background-color: #3e3d50;
-}
-
-.icon{
-	
-	width: 100%;
-	height: 120px;
+		padding-top: 10vh;
 	
 	
-	padding-top: 2vh;
+	}
 	
-	background-image: url("./content/images/Logo_transparent.png");
-
-	background-size: 50%;
-	background-position: left;
-	background-repeat: no-repeat;
-}
-
-
-.menu button {
-	background-color: Transparent;
-	width: 60px;
-	height: 80px;
+	.header-background{	
+		background-color: #3e3d50;
+	}
 	
-	border: none;
+	.icon{
 		
-	font-family: 'Dosis', sans-serif;
-	color: white;
-	font-size: 20px;
+		height: 90px;
 
-}
+		margin: 0 auto;
 
-.menu button:hover{
-	color: #4ccc4f;
-	font-size: 2rem;
-}
 
-#landing{
-	display: flex;
+		background-image: url("./content/images/Logo_transparent.png");
+		background-size: contain;
+		background-position: left;
+		background-repeat: no-repeat;
+	}
 	
-	justify-content: center;
-	font-family: 'Bebas Neue', cursive;
 
-	text-align: center;
-	font-size: 100px;
-	color: white;
 	
-	min-height: 80vh;
-	padding-top:2vh;
-	background-image: url("content/images/home_page_small.png");
-	background-size: 100%;
-
-	background-repeat: no-repeat;
-}
-
-#game_section{
-
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size: 30px;
-
-	text-align: center;
+	.menu button {
+		background-color: Transparent;
+		width: 15vw;
+		height: 10px;
 		
-}
-
-#game_section h2{
-	text-align: right;
-	
-}
-
-.game_list{
-	margin: 0 auto;
-
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	
-	
-}
-
-.game_block{
-
-
-	width: 50%;
-	min-height: 50vh;
-	margin: 10px;
-
-	transition-property: width;
-	transition-duration: 1s;
-	transition-timing-function: ease-in-out;
-	
-	font-family: 'Bebas Neue', cursive;
-	font-weight: 400;
-	font-size: 0px;
-	color: white;
-	
-	
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.game_block:hover{
-	
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	
-	
-	width: 80%;
-	
-	transition-property: width;
-	transition-duration: 1.5s;
-	transition-timing-function: ease-in-out;
-	
-	
-	text-align: right;
-	
-	justify-content: space-between;
-
-	font-family: 'Bebas Neue', cursive;
-	font-weight: 400;
-	font-size: 80px;
-
-}
-
-.game_block:hover .game_block_spiel{
-	display: block;
-	font-size: 40px;
-}
-
-.game_block:hover .game_moreInfo{
-	display: block;
-}
-
-.game_block_spiel{
-	
-	display: none;
-	font-family: 'Dosis', sans-serif;
-	color: white;
-	font-size: 0px;
-	width: 100%;
-	text-align: center;
-}
-
-.game_moreInfo{
-	display: none;	
-	float: right; 
-	margin: 30px;
-	
-	padding: 10px;
-	
-	background-color: #3e3d50;
-	border: none;
-	
-	width: 100px;
-	
-	color: white;
-	font-family: 'Dosis', sans-serif;
-	font-size:15px;
-	font-weight: bold;
-}
-
-.game_moreInfo:hover{		
-		color: #4ccc4f;
-}
-
-
-
-
-#slogan{
-	display: flex;
-	background-color: #3e3d50;
-	min-height: 75vh;
-}
-
-.about_us{
-	
-	text-align: right;
-	font-family: 'Dosis', sans-serif;
-	color: white;
-	font-size:20px;
-	
-	height:100%;
-	width:50%;
-	float: left;
-}
-
-.about_us h2{
-	margin: 0px;
-	padding-bottom: 0px;
-	margin-left: 20px;
-	font-family: 'Bebas Neue', cursive;
-	font-weight: 400;
-	font-size: 200px;
-	color: white;
-	
-}
-
-.bashful{
-	width:50%;
-	margin: 5vw;
-	background-image: url("content/images/bashful.png");
-	background-size: contain;
-	background-position: bottom;
-	background-repeat: no-repeat;
-}
-
-.doris_me{
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size: 20px;
-	width: 100%;
-	text-align: center;
-		
-}
-
-#blogs{
-	
-	margin: 15px auto;
-	
-	display: flex;
-	flex-wrap: wrap;
-
-	justify-content: center;
-	align-items: center;
-	
-	width: 80%;
-	min-height: 50vh;
-
-}
-
-.blog_post{
-	
-	display: flex;
-	flex-direction: column;
-	
-	max-width: 400px;
-	height: 50vh;
-	
-	background-color: #E8E8E8;
-	
-	margin: 5px;
-
-}
-
-.blog_image{
-	height: 800px;
-	max-width: 700px;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-
-.blog_title{
-	font-family: 'Bebas Neue', cursive;
-	padding: 0px;
-	font-size: 40px;
-	height:15%;
-	text-align: center;
-}
-.blog_tag{
-	font-family: 'Dosis', sans-serif;
-	color: black;
-
-	font-size:20px;
-
-}
-
-.blog_post button{
-	background-color: #3e3d50;
-	border: none;
-	margin: 10px;
-	
-	width: 100px;
-	
-	color: white;
-	font-family: 'Dosis', sans-serif;
-	font-size:15px;
-	font-weight: bold;
-}
-
-.blog_post button:hover{
-		color: #4ccc4f;
-}
-
-.spacer{
-	height: 5vh;
-	background-color: #3e3d50;
-}
-
-#newsletter{
-	padding-top: 5vh;
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size:20px;
-	width:100%;
-	height: 25vh;
-
-}
-
-.email_input{
-	width:40vw;
+		border: none;
+			
 		font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size:20px;
-}
-.signupBox{
-
-	display: flex;
-	align-content: center;
-	justify-content: center;
-}
-
-.signupBox button{
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-weight: bold;
-	font-size:20px;
+		color: white;
+		font-size: 20px;
 	
-	background-color: Transparent;
-	border-radius: 4px;
-	border: 2px solid #4CAF50;
-
-	width: 100px;
-	height: 50px;
-}
-
-.signupBox button:hover{
-	background-color:#4CAF50;
-}
-
-#footer{
+	}
 	
-	display: flex;
-	background-color: #3e3d50;
-
-	
-
-	
-	justify-content: space-around;
-	
-	padding-bottom: 20px;
-
-}
-
-.footerimage{
-	display: flex;
-
-	
-	background-image: url("./content/images/Logo_transparent.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	width: 50vw;
-	
-	min-height: 10vh;
-
-	margin: 60px;
-}
-
-.footercontact{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	
-	color: white;
-	font-family: 'Dosis', sans-serif;
-	font-size:15px;
-
-	
-	width: 50%;
-	height: 100%;
-}
-
-.footercontact p{
-	font-size:25px;
-}
-
-.socials button{
-	width: 50px;
-	height:50px;
-	
-	border-radius: 4px;
-}
-
-.twitter{
-
-	
-	background-image: url("content/images/twitter.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	border: none;
-}
-.instagram{
-
-	
-	background-image: url("content/images/instagram.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	border: none;
-}
-.youtube{
-
-	
-	background-image: url("content/images/youtube.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	border: none;
-}
-
-.artstation{
-
-	
-	background-image: url("content/images/artstation.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	border: none;
-}
-
-.twitter:hover , .youtube:hover, .instagram:hover,.artstation:hover{
-	border:2px solid #A6CDB2;
-}
-
-.top_socials{
-
-	position: absolute;
-	right: 0;
-
-	padding: 10px;
-}
-.top_socials button{
-	opacity: 60%;
-	width: 40px;
-	height: 40px;
-	
-
-}
-
-.top_socials button:hover{
-	opacity: 100%;
-}
-	
-}
-
-
-
-
-#slogan{
-	display: flex;
-	background-color: #3e3d50;
-	min-height: 75vh;
-}
-
-.about_us{
-	
-	text-align: right;
-	font-family: 'Dosis', sans-serif;
-	color: white;
-	font-size:20px;
-	
-	height:100%;
-	width:50%;
-	float: left;
-}
-
-.about_us h2{
-	margin: 0px;
-	padding-bottom: 0px;
-	margin-left: 20px;
-	font-family: 'Bebas Neue', cursive;
-	font-weight: 400;
-	font-size: 200px;
-	color: white;
-	
-}
-
-.bashful{
-	width:50%;
-	margin: 5vw;
-	background-image: url("content/images/bashful.png");
-	background-size: contain;
-	background-position: bottom;
-	background-repeat: no-repeat;
-}
-
-.doris_me{
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size: 20px;
-	width: 100%;
-	text-align: center;
-		
-}
-
-#blogs{
-	
-	margin: 15px auto;
-	
-	display: flex;
-	flex-wrap: wrap;
-
-	justify-content: center;
-	align-items: center;
-	
-	width: 80%;
-	min-height: 50vh;
-
-}
-
-.blog_post{
-	
-	display: flex;
-	flex-direction: column;
-	
-	max-width: 400px;
-	height: 50vh;
-	
-	background-color: #E8E8E8;
-	
-	margin: 5px;
-
-}
-
-.blog_image{
-	height: 800px;
-	max-width: 700px;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-
-.blog_title{
-	font-family: 'Bebas Neue', cursive;
-	padding: 0px;
-	font-size: 40px;
-	height:15%;
-	text-align: center;
-}
-.blog_tag{
-	font-family: 'Dosis', sans-serif;
-	color: black;
-
-	font-size:20px;
-
-}
-
-.blog_post button{
-	background-color: #3e3d50;
-	border: none;
-	margin: 10px;
-	
-	width: 100px;
-	
-	color: white;
-	font-family: 'Dosis', sans-serif;
-	font-size:15px;
-	font-weight: bold;
-}
-
-.blog_post button:hover{
+	.menu button:hover{
 		color: #4ccc4f;
-}
+		font-size: 2rem;
+	}
+	
+	#landing{
+		background-color: #3e3d50;
+		display: flex;
+		
+		justify-content: center;
+		font-family: 'Bebas Neue', cursive;
+	
+		text-align: center;
+		font-size: 100px;
+		color: white;
+	
 
-.spacer{
-	height: 5vh;
-	background-color: #3e3d50;
-}
-
-#newsletter{
-	padding-top: 5vh;
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size:20px;
-	width:100%;
-	height: 25vh;
-
-}
-
-.email_input{
-	width:40vw;
+		padding-top:30vh;
+		background-image: url("content/images/home_page_small.png");
+		background-size: cover;
+		background-position: bottom right;
+		background-repeat: no-repeat;
+	}
+	
+	#game_section{
+	
 		font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size:20px;
-}
-.signupBox{
-
-	display: flex;
-	align-content: center;
-	justify-content: center;
-}
-
-.signupBox button{
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-weight: bold;
-	font-size:20px;
+		color: black;
+		font-size: 100px;
 	
-	background-color: Transparent;
-	border-radius: 4px;
-	border: 2px solid #4CAF50;
-
-	width: 100px;
-	height: 50px;
-}
-
-.signupBox button:hover{
-	background-color:#4CAF50;
-}
-
-#footer{
+		text-align: center;
+			
+	}
 	
-	display: flex;
-	background-color: #3e3d50;
-
-	
-
-	
-	justify-content: space-around;
-	
-	padding-bottom: 20px;
-
-}
-
-.footerimage{
-	display: flex;
-
-	
-	background-image: url("./content/images/Logo_transparent.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	width: 50vw;
-	
-	min-height: 10vh;
-
-	margin: 60px;
-}
-
-.footercontact{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	
-	color: white;
-	font-family: 'Dosis', sans-serif;
-	font-size:15px;
-
-	
-	width: 50%;
-	height: 100%;
-}
-
-.footercontact p{
-	font-size:25px;
-}
-
-.socials button{
-	width: 50px;
-	height:50px;
-	
-	border-radius: 4px;
-}
-
-.twitter{
-
-	
-	background-image: url("content/images/twitter.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	border: none;
-}
-.instagram{
-
-	
-	background-image: url("content/images/instagram.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	border: none;
-}
-.youtube{
-
-	
-	background-image: url("content/images/youtube.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	border: none;
-}
-
-.artstation{
-
-	
-	background-image: url("content/images/artstation.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	border: none;
-}
-
-.twitter:hover , .youtube:hover, .instagram:hover,.artstation:hover{
-	border:2px solid #A6CDB2;
-}
-
-.top_socials{
-
-	position: absolute;
-	right: 0;
-
-	padding: 10px;
-}
-.top_socials button{
-	opacity: 60%;
-	width: 40px;
-	height: 40px;
-	
-
-}
-
-.top_socials button:hover{
-	opacity: 100%;
-}
-
-
-@media only screen and (min-width: 600px) {
-	
-	body{
-	padding: 0;
-	margin: 0;
-}
-
-#main-container{
-	height: 100%;	
-}
-
-#header{
-	display: flex;
-	flex-wrap: wrap;
-	
-	justify-content: space-between;
-	width:80%;
-	height:100%;
-	margin: 0 auto;
-
-}
-
-.header-background{
-	display: flex;
-	flex-wrap:wrap;
-	width: 100vw;
-
-	background-color: #3e3d50;
-}
-
-.icon{
-	
-	width: 100%;
-	height: 120px;
-	
-	
-	padding-top: 2vh;
-	
-	background-image: url("./content/images/Logo_transparent.png");
-
-	background-size: 50%;
-	background-position: left;
-	background-repeat: no-repeat;
-}
-
-
-.menu button {
-	background-color: Transparent;
-	width: 60px;
-	height: 80px;
-	
-	border: none;
+	#game_section h2{
+		text-align: right;
 		
-	font-family: 'Dosis', sans-serif;
-	color: white;
-	font-size: 20px;
-
-}
-
-.menu button:hover{
-	color: #4ccc4f;
-	font-size: 2rem;
-}
-
-#landing{
-	display: flex;
+	}
 	
-	justify-content: center;
-	font-family: 'Bebas Neue', cursive;
-
-	text-align: center;
-	font-size: 100px;
-	color: white;
+	.game_list{
 	
-	min-height: 80vh;
-	padding-top:2vh;
-	background-image: url("content/images/home_page_small.png");
-	background-size: 100%;
-
-	background-repeat: no-repeat;
-}
-
-#game_section{
-
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size: 30px;
-
-	text-align: center;
+		display: flex;
+		flex-wrap: wrap;
 		
-}
-
-#game_section h2{
-	text-align: right;
-	
-}
-
-.game_list{
-	margin: 0 auto;
-
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	
-	
-}
-
-.game_block{
-
-
-	width: 50%;
-	min-height: 50vh;
-	margin: 10px;
-
-	transition-property: width;
-	transition-duration: 1s;
-	transition-timing-function: ease-in-out;
-	
-	font-family: 'Bebas Neue', cursive;
-	font-weight: 400;
-	font-size: 0px;
-	color: white;
-	
-	
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.game_block:hover{
-	
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	
-	
-	width: 80%;
-	
-	transition-property: width;
-	transition-duration: 1.5s;
-	transition-timing-function: ease-in-out;
-	
-	
-	text-align: right;
-	
-	justify-content: space-between;
-
-	font-family: 'Bebas Neue', cursive;
-	font-weight: 400;
-	font-size: 80px;
-
-}
-
-.game_block:hover .game_block_spiel{
-	display: block;
-	font-size: 40px;
-}
-
-.game_block:hover .game_moreInfo{
-	display: block;
-}
-
-.game_block_spiel{
-	
-	display: none;
-	font-family: 'Dosis', sans-serif;
-	color: white;
-	font-size: 0px;
-	width: 100%;
-	text-align: center;
-}
-
-.game_moreInfo{
-	display: none;	
-	float: right; 
-	margin: 30px;
-	
-	padding: 10px;
-	
-	background-color: #3e3d50;
-	border: none;
-	
-	width: 100px;
-	
-	color: white;
-	font-family: 'Dosis', sans-serif;
-	font-size:15px;
-	font-weight: bold;
-}
-
-.game_moreInfo:hover{		
-		color: #4ccc4f;
-}
-
-
-
-
-#slogan{
-	display: flex;
-	background-color: #3e3d50;
-	min-height: 75vh;
-}
-
-.about_us{
-	
-	text-align: right;
-	font-family: 'Dosis', sans-serif;
-	color: white;
-	font-size:20px;
-	
-	height:100%;
-	width:50%;
-	float: left;
-}
-
-.about_us h2{
-	margin: 0px;
-	padding-bottom: 0px;
-	margin-left: 20px;
-	font-family: 'Bebas Neue', cursive;
-	font-weight: 400;
-	font-size: 200px;
-	color: white;
-	
-}
-
-.bashful{
-	width:50%;
-	margin: 5vw;
-	background-image: url("content/images/bashful.png");
-	background-size: contain;
-	background-position: bottom;
-	background-repeat: no-repeat;
-}
-
-.doris_me{
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size: 20px;
-	width: 100%;
-	text-align: center;
+		justify-content: center;
 		
-}
-
-#blogs{
+		
+	}
 	
-	margin: 15px auto;
+	.game_block{
+		width: 80%;
+		min-height: 50vh;
 	
-	display: flex;
-	flex-wrap: wrap;
-
-	justify-content: center;
-	align-items: center;
+		transition-property: width;
+		transition-duration: 1s;
+		transition-timing-function: ease-in-out;
+		
+		font-family: 'Bebas Neue', cursive;
+		font-weight: 400;
+		font-size: 0px;
+		color: white;
+		
+		
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 	
-	width: 80%;
-	min-height: 50vh;
-
-}
-
-.blog_post{
+	.game_block:hover{
+		
+		display: flex;
+		flex-direction: column;
+		
+		
+		width: 100%;
+		
+		transition-property: width;
+		transition-duration: 1.5s;
+		transition-timing-function: ease-in-out;
+		
+		
+		text-align: right;
+		
+		justify-content: space-between;
 	
-	display: flex;
-	flex-direction: column;
+		font-family: 'Bebas Neue', cursive;
+		font-weight: 400;
+		font-size: 40px;
 	
-	max-width: 400px;
-	height: 50vh;
+	}
 	
-	background-color: #E8E8E8;
+	.game_block:hover .game_block_spiel{
+		display: block;
+		font-size: 20px;
+	}
 	
-	margin: 5px;
-
-}
-
-.blog_image{
-	height: 800px;
-	max-width: 700px;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-
-.blog_title{
-	font-family: 'Bebas Neue', cursive;
-	padding: 0px;
-	font-size: 40px;
-	height:15%;
-	text-align: center;
-}
-.blog_tag{
-	font-family: 'Dosis', sans-serif;
-	color: black;
-
-	font-size:20px;
-
-}
-
-.blog_post button{
-	background-color: #3e3d50;
-	border: none;
-	margin: 10px;
+	.game_block:hover .game_moreInfo{
+		display: block;
+	}
 	
-	width: 100px;
-	
-	color: white;
-	font-family: 'Dosis', sans-serif;
-	font-size:15px;
-	font-weight: bold;
-}
-
-.blog_post button:hover{
-		color: #4ccc4f;
-}
-
-.spacer{
-	height: 5vh;
-	background-color: #3e3d50;
-}
-
-#newsletter{
-	padding-top: 5vh;
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size:20px;
-	width:100%;
-	height: 25vh;
-
-}
-
-.email_input{
-	width:40vw;
+	.game_block_spiel{
+		
+		display: none;
 		font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size:20px;
-}
-.signupBox{
-
-	display: flex;
-	align-content: center;
-	justify-content: center;
-}
-
-.signupBox button{
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-weight: bold;
-	font-size:20px;
+		color: white;
+		font-size: 0px;
+		width: 100%;
+		text-align: center;
+	}
 	
-	background-color: Transparent;
-	border-radius: 4px;
-	border: 2px solid #4CAF50;
+	.game_moreInfo{
+		display: none;	
+		float: right; 
 
-	width: 100px;
-	height: 50px;
-}
-
-.signupBox button:hover{
-	background-color:#4CAF50;
-}
-
-#footer{
-	
-	display: flex;
-	background-color: #3e3d50;
-
-	
-
-	
-	justify-content: space-around;
-	
-	padding-bottom: 20px;
-
-}
-
-.footerimage{
-	display: flex;
-
-	
-	background-image: url("./content/images/Logo_transparent.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	width: 50vw;
-	
-	min-height: 10vh;
-
-	margin: 60px;
-}
-
-.footercontact{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	
-	color: white;
-	font-family: 'Dosis', sans-serif;
-	font-size:15px;
-
-	
-	width: 50%;
-	height: 100%;
-}
-
-.footercontact p{
-	font-size:25px;
-}
-
-.socials button{
-	width: 50px;
-	height:50px;
-	
-	border-radius: 4px;
-}
-
-.twitter{
-
-	
-	background-image: url("content/images/twitter.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	border: none;
-}
-.instagram{
-
-	
-	background-image: url("content/images/instagram.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	border: none;
-}
-.youtube{
-
-	
-	background-image: url("content/images/youtube.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	border: none;
-}
-
-.artstation{
-
-	
-	background-image: url("content/images/artstation.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-	border: none;
-}
-
-.twitter:hover , .youtube:hover, .instagram:hover,.artstation:hover{
-	border:2px solid #A6CDB2;
-}
-
-.top_socials{
-
-	position: absolute;
-	right: 0;
-
-	padding: 10px;
-}
-.top_socials button{
-	opacity: 60%;
-	width: 40px;
-	height: 40px;
-	
-
-}
-
-.top_socials button:hover{
-	opacity: 100%;
-}
-	
-}
-
-
-
-
-#slogan{
-	display: flex;
-	background-color: #3e3d50;
-	min-height: 75vh;
-}
-
-.about_us{
-	
-	text-align: right;
-	font-family: 'Dosis', sans-serif;
-	color: white;
-	font-size:20px;
-	
-	height:100%;
-	width:50%;
-	float: left;
-}
-
-.about_us h2{
-	margin: 0px;
-	padding-bottom: 0px;
-	margin-left: 20px;
-	font-family: 'Bebas Neue', cursive;
-	font-weight: 400;
-	font-size: 200px;
-	color: white;
-	
-}
-
-.bashful{
-	width:50%;
-	margin: 5vw;
-	background-image: url("content/images/bashful.png");
-	background-size: contain;
-	background-position: bottom;
-	background-repeat: no-repeat;
-}
-
-.doris_me{
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size: 20px;
-	width: 100%;
-	text-align: center;
+		background-color: #3e3d50;
+		border: none;
 		
-}
 
-#blogs{
-	
-	margin: 15px auto;
-	
-	display: flex;
-	flex-wrap: wrap;
-
-	justify-content: center;
-	align-items: center;
-	
-	width: 80%;
-	min-height: 50vh;
-
-}
-
-.blog_post{
-	
-	display: flex;
-	flex-direction: column;
-	
-	max-width: 400px;
-	height: 50vh;
-	
-	background-color: #E8E8E8;
-	
-	margin: 5px;
-
-}
-
-.blog_image{
-	height: 800px;
-	max-width: 700px;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-
-.blog_title{
-	font-family: 'Bebas Neue', cursive;
-	padding: 0px;
-	font-size: 40px;
-	height:15%;
-	text-align: center;
-}
-.blog_tag{
-	font-family: 'Dosis', sans-serif;
-	color: black;
-
-	font-size:20px;
-
-}
-
-.blog_post button{
-	background-color: #3e3d50;
-	border: none;
-	margin: 10px;
-	
-	width: 100px;
-	
-	color: white;
-	font-family: 'Dosis', sans-serif;
-	font-size:15px;
-	font-weight: bold;
-}
-
-.blog_post button:hover{
-		color: #4ccc4f;
-}
-
-.spacer{
-	height: 5vh;
-	background-color: #3e3d50;
-}
-
-#newsletter{
-	padding-top: 5vh;
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size:20px;
-	width:100%;
-	height: 25vh;
-
-}
-
-.email_input{
-	width:40vw;
+		color: white;
 		font-family: 'Dosis', sans-serif;
-	color: black;
-	font-size:20px;
-}
-.signupBox{
-
-	display: flex;
-	align-content: center;
-	justify-content: center;
-}
-
-.signupBox button{
-	font-family: 'Dosis', sans-serif;
-	color: black;
-	font-weight: bold;
-	font-size:20px;
+		font-size:20px;
+		font-weight: bold;
+	}
 	
-	background-color: Transparent;
-	border-radius: 4px;
-	border: 2px solid #4CAF50;
-
-	width: 100px;
-	height: 50px;
-}
-
-.signupBox button:hover{
-	background-color:#4CAF50;
-}
-
-#footer{
+	.game_moreInfo:hover{		
+			color: #4ccc4f;
+	}
 	
-	display: flex;
-	background-color: #3e3d50;
+	#slogan{
+		display: flex;
+		background-color: #3e3d50;
 
+	}
 	
-
+	.about_us{
+		
+		text-align: right;
+		font-family: 'Dosis', sans-serif;
+		color: white;
+		font-size:60px;
+		
+		height:100%;
+		width:50%;
+		float: left;
+	}
 	
-	justify-content: space-around;
+	.about_us h2{
+		padding-bottom: 0px;
+		font-family: 'Bebas Neue', cursive;
+		font-weight: 400;
+		font-size: 50px;
+		color: white;
+		
+	}
 	
-	padding-bottom: 20px;
-
-}
-
-.footerimage{
-	display: flex;
-
+	.bashful{
+		width:100%;
+		background-image: url("content/images/bashful.png");
+		background-size: cover;
+		background-position: center bottom;
+		background-repeat: no-repeat;
+	}
 	
-	background-image: url("./content/images/Logo_transparent.png");
-	background-size: contain;
-	background-repeat: no-repeat;
 	
-	width: 50vw;
 	
-	min-height: 10vh;
-
-	margin: 60px;
-}
-
-.footercontact{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	
-	color: white;
-	font-family: 'Dosis', sans-serif;
-	font-size:15px;
-
+	.doris_me{
+		font-family: 'Dosis', sans-serif;
+		color: black;
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+			
+	}
 	
-	width: 50%;
-	height: 100%;
-}
-
-.footercontact p{
-	font-size:25px;
-}
-
-.socials button{
-	width: 50px;
-	height:50px;
+	#blogs{
+		
+		
+		display: flex;
+		flex-wrap: wrap;
 	
-	border-radius: 4px;
-}
+		justify-content: center;
+		align-items: center;
+		
+		width: 80%;
+		min-height: 50vh;
+	
+	}
+	
+	.blog_post{
+		
+		display: flex;
+		flex-direction: column;
+		
+		min-width: 90vw;
+		height: 100%;
+		
+		background-color: #E8E8E8;
 
-.twitter{
+
+
+		
 
 	
-	background-image: url("content/images/twitter.png");
-	background-size: contain;
-	background-repeat: no-repeat;
+	}
 	
-	border: none;
-}
-.instagram{
+	.blog_image{
+		height: 30vh;
+		max-width: 95%;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	
+	
+	.blog_title{
+		font-family: 'Bebas Neue', cursive;
+		padding: 0px;
+		font-size: 40px;
+		height:15%;
+		text-align: center;
+	}
+	.blog_tag{
+		font-family: 'Dosis', sans-serif;
+		color: black;
+	
+		font-size:25px;
+		margin: 20px;
+	
+	}
+	
+	.blog_post button{
+
+		float: right; 
+		
+
+		
+		background-color: #3e3d50;
+		border: none;
+		
+		width: 80%;
+
+		
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		font-size:20px;
+		font-weight: bold;
+	}
+	
+	.blog_post button:hover{
+			color: #4ccc4f;
+	}
+	
+	.spacer{
+		height: 5vh;
+		background-color: #3e3d50;
+	}
+	
+	#newsletter{
+
+		display: none;
+		padding-top: 5vh;
+		font-family: 'Dosis', sans-serif;
+		color: black;
+		font-size:30px;
+		width:100%;
+		height: 25vh;
+	
+	}
+	
+	.email_input{
+		width:40vw;
+		font-family: 'Dosis', sans-serif;
+		color: black;
+
+		font-size:80px;
+		font-weight: bold;
+
+		height: 100px;
+		font-size:20px;
+	}
+	.signupBox{
+	
+		display: flex;
+		align-content: center;
+		justify-content: center;
+	}
+	
+	.signupBox button{
+		font-family: 'Dosis', sans-serif;
+		color: black;
+		font-weight: bold;
+		font-size:50px;
+		
+		background-color: Transparent;
+		border-radius: 4px;
+		border: 2px solid #4CAF50;
+	
+
+	}
+	
+	.signupBox button:hover{
+		background-color:#4CAF50;
+	}
+	
+	#footer{
+		
+		display: flex;
+		background-color: #3e3d50;
+	
+		
+	
+		
+		justify-content: space-around;
+		
+		padding-bottom: 20px;
+	
+	}
+	
 
 	
-	background-image: url("content/images/instagram.png");
-	background-size: contain;
-	background-repeat: no-repeat;
+	.footercontact{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: left;
+		align-items: left;
+		
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		font-size:30px;
 	
-	border: none;
-}
-.youtube{
-
+		
+		width: 50%;
+		height: 100%;
+	}
 	
-	background-image: url("content/images/youtube.png");
-	background-size: contain;
-	background-repeat: no-repeat;
+	.footercontact p{
+		width: 80%;
+		font-size:15px;
+
+	}
 	
-	border: none;
-}
-
-.artstation{
-
+	.socials button{
+		width: 40px;
+		height: 40px;
+		
+		border-radius: 4px;
+	}
 	
-	background-image: url("content/images/artstation.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
+	.twitter{
 	
-	border: none;
-}
-
-.twitter:hover , .youtube:hover, .instagram:hover,.artstation:hover{
-	border:2px solid #A6CDB2;
-}
-
-.top_socials{
-
-	position: absolute;
-	right: 0;
-
-	padding: 10px;
-}
-.top_socials button{
-	opacity: 60%;
-	width: 40px;
-	height: 40px;
+		
+		background-image: url("content/images/twitter.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		
+		border: none;
+	}
+	.instagram{
+	
+		
+		background-image: url("content/images/instagram.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		
+		border: none;
+	}
+	.youtube{
+	
+		
+		background-image: url("content/images/youtube.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		
+		border: none;
+	}
+	
+	.artstation{
+	
+		
+		background-image: url("content/images/artstation.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		
+		border: none;
+	}
+	
+	.twitter:hover , .youtube:hover, .instagram:hover,.artstation:hover{
+		border:2px solid #A6CDB2;
+	}
+	
+	.top_socials{
+	
+		position: absolute;
+		right: 0;
 	
 
-}
+	}
+	.top_socials button{
+		opacity: 60%;
+		width: 40px;
+		height: 40px;
+		
+	
+	}
+	
+	.top_socials button:hover{
+		opacity: 100%;
+	}
+		
+	*{
+		max-width: 100vw;
 
-.top_socials button:hover{
-	opacity: 100%;
-}
+		font-size: 20%;
+	}
+
