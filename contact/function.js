@@ -43,5 +43,5 @@ function instagram(){
 }
 
 function artstation(){
-	window.open('https://www.instagram.com/retnastudios/', '_blank');
+	window.open('https://www.artstation.com/retnastudios', '_blank');
 }
