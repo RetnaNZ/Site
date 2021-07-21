@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1380px) {
+@media only screen and (min-width: 992px) {
 	
 
 
@@ -17,7 +17,7 @@ body{
 	
 	justify-content: space-between;
 	width:80%;
-	height:100%;
+
 	margin: 0 auto;
 
 }
@@ -32,14 +32,14 @@ body{
 .icon{
 	
 	width: 50%;
-	height: 120px;
+	height: 80px;
 	
 	float: left;
 	
-	padding-top: 100px;
+	padding-top: 150px;
 	
 	background-image: url("./content/images/Logo_transparent.png");
-	background-size: 80%;
+	background-size: 70%;
 	background-position: left;
 	background-repeat: no-repeat;
 }
@@ -74,6 +74,7 @@ body{
 }
 
 #landing{
+	background-color: #3e3d50;
 	display: flex;
 	
 	justify-content: center;
@@ -84,9 +85,9 @@ body{
 	color: white;
 
 	min-height: 80vh;
-	padding-top:2vh;
+	padding-top:5vh;
 	background-image: url("content/images/front_page.png");
-	background-size: 100%;
+	background-size: fill;
 	background-position: bottom right;
 	background-repeat: no-repeat;
 }
@@ -325,7 +326,7 @@ body{
 	background-color: #3e3d50;
 }
 
-#news{
+#newsletter{
 	padding-top: 5vh;
 	font-family: 'Dosis', sans-serif;
 	color: black;

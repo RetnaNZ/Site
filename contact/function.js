@@ -2,6 +2,7 @@ const menuButton_home = document.getElementById('home');
 const menuButton_about = document.getElementById('about');
 const menuButton_games = document.getElementById('games');
 const menuButton_contact = document.getElementById('contact');
+const menuButton_news = document.getElementById('news');
 
 const iconButton = document.getElementById('icon_home');
 
@@ -25,22 +26,22 @@ menuButton_contact.onclick = function() {
 	location.href = "./contactindex.html";
 }
 
+menuButton_news.onclick = function() {
+	location.href = "../news/newsindex.html";
+}
+
 function youtube(){
-	location.href="https://www.youtube.com/channel/UC3DlwulmKD2_5hSQW-8BZpQ",
-  '_blank';
+	window.open('https://www.youtube.com/channel/UC3DlwulmKD2_5hSQW-8BZpQ', '_blank');
 }
 
 function twitter(){
-	location.href="https://twitter.com/retnastudios",
-  '_blank';
+	window.open('https://twitter.com/retnastudios', '_blank');
 }
 
 function instagram(){
-	location.href="https://www.instagram.com/retnastudios/",
-  '_blank';
+	window.open('https://www.instagram.com/retnastudios', '_blank');
 }
 
 function artstation(){
-	location.href="https://www.artstation.com/retnastudios",
-  '_blank';
+	window.open('https://www.instagram.com/retnastudios/', '_blank');
 }

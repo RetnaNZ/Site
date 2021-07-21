@@ -2,6 +2,9 @@ const menuButton_home = document.getElementById('home');
 const menuButton_about = document.getElementById('about');
 const menuButton_games = document.getElementById('games');
 const menuButton_contact = document.getElementById('contact');
+const menuButton_news = document.getElementById('news');
+
+const bashful = document.getElementById('Bashful');
 
 
 
@@ -29,6 +32,10 @@ menuButton_contact.onclick = function() {
 	location.href = "./contact/contactindex.html";
 }
 
+menuButton_news.onclick = function() {
+	location.href = "./news/newsindex.html";
+}
+
 function EmailInput(){
 	emailInput.value = null;
 }
@@ -54,18 +61,22 @@ function Game_4(){
 	location.href = "./games/gamesindex.html";
 }
 
+function BlogPost(){
+	location.href = "./news/newsindex.html";
+}
+
 function youtube(){
-	location.href="https://www.youtube.com/channel/UC3DlwulmKD2_5hSQW-8BZpQ";
+	window.open('https://www.youtube.com/channel/UC3DlwulmKD2_5hSQW-8BZpQ', '_blank');
 }
 
 function twitter(){
-	location.href="https://twitter.com/retnastudios"
+	window.open('https://twitter.com/retnastudios', '_blank');
 }
 
 function instagram(){
-	location.href="https://www.instagram.com/retnastudios/"
+	window.open('https://www.instagram.com/retnastudios', '_blank');
 }
 
 function artstation(){
-	location.href="https://www.artstation.com/retnastudios"
+	window.open('https://www.instagram.com/retnastudios/', '_blank');
 }
