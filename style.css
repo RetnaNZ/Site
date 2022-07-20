@@ -6,9 +6,13 @@ body{
 #Main{
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    align-items: center;
+    background-image: linear-gradient(#060520, #3d93a4);
+    height: 100vh;
+
 }
 
 #unityContainer{
-    height: 90%;
+    height: 90vh;
+    aspect-ratio: 1080/2200;
 }
