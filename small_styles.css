@@ -1,0 +1,479 @@
+
+
+	#main-container{
+		height: 100%;
+
+	}
+	
+	#header{
+
+
+		justify-content: space-between;
+		width:100%;
+
+		padding-top: 10vh;
+	
+	
+	}
+	
+	.header-background{	
+		background-color: #3e3d50;
+	}
+	
+	.icon{
+		
+		height: 90px;
+
+		margin: 0 auto;
+
+
+		background-image: url("./content/images/Logo_transparent.png");
+		background-size: contain;
+		background-position: left;
+		background-repeat: no-repeat;
+	}
+	
+
+	
+	.menu button {
+		background-color: Transparent;
+		width: 15vw;
+		height: 10px;
+		
+		border: none;
+			
+		font-family: 'Dosis', sans-serif;
+		color: white;
+		font-size: 20px;
+	
+	}
+	
+	.menu button:hover{
+		color: #4ccc4f;
+		width: 15vw;
+		height: 10px;
+		font-size: 20px;
+	}
+	
+	#landing{
+		background-color: #3e3d50;
+		display: flex;
+		
+		justify-content: center;
+		font-family: 'Bebas Neue', cursive;
+	
+		text-align: center;
+		font-size: 100px;
+		color: white;
+	
+
+		padding-top:30vh;
+		background-image: url("content/images/home_page_small.png");
+		background-size: cover;
+		background-position: bottom right;
+		background-repeat: no-repeat;
+	}
+	
+	#game_section{
+	
+		font-family: 'Dosis', sans-serif;
+		color: black;
+		font-size: 100px;
+	
+		text-align: center;
+			
+	}
+	
+	#game_section h2{
+		text-align: right;
+		
+	}
+	
+	.game_list{
+	
+		display: flex;
+		flex-wrap: wrap;
+		
+		justify-content: center;
+		
+		
+	}
+	
+	.game_block{
+		width: 80%;
+		min-height: 50vh;
+	
+		transition-property: width;
+		transition-duration: 1s;
+		transition-timing-function: ease-in-out;
+		
+		font-family: 'Bebas Neue', cursive;
+		font-weight: 400;
+		font-size: 0px;
+		color: white;
+		
+		
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	
+	.game_block:hover{
+		
+		display: flex;
+		flex-direction: column;
+		
+		
+		width: 100%;
+		
+		transition-property: width;
+		transition-duration: 1.5s;
+		transition-timing-function: ease-in-out;
+		
+		
+		text-align: right;
+		
+		justify-content: space-between;
+	
+		font-family: 'Bebas Neue', cursive;
+		font-weight: 400;
+		font-size: 40px;
+	
+	}
+	
+	.game_block:hover .game_block_spiel{
+		display: block;
+		font-size: 20px;
+	}
+	
+	.game_block:hover .game_moreInfo{
+		display: block;
+	}
+	
+	.game_block_spiel{
+		
+		display: none;
+		font-family: 'Dosis', sans-serif;
+		color: white;
+		font-size: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.game_moreInfo{
+		display: none;	
+		float: right; 
+
+		background-color: #3e3d50;
+		border: none;
+		
+
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		font-size:20px;
+		font-weight: bold;
+	}
+	
+	.game_moreInfo:hover{		
+			color: #4ccc4f;
+	}
+	
+	#slogan{
+		display: flex;
+		background-color: #3e3d50;
+
+	}
+	
+	.about_us{
+		
+		text-align: right;
+		font-family: 'Dosis', sans-serif;
+		color: white;
+		font-size:60px;
+		
+		height:100%;
+		width:50%;
+		float: left;
+	}
+	
+	.about_us h2{
+		padding-bottom: 0px;
+		font-family: 'Bebas Neue', cursive;
+		font-weight: 400;
+		font-size: 50px;
+		color: white;
+		
+	}
+	
+	.bashful{
+		width:100%;
+		background-image: url("content/images/bashful.png");
+		background-size: cover;
+		background-position: center bottom;
+		background-repeat: no-repeat;
+	}
+	
+	
+	
+	
+	.doris_me{
+		font-family: 'Dosis', sans-serif;
+		color: black;
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+			
+	}
+	
+	#blogs{
+		
+		
+		display: flex;
+		flex-wrap: wrap;
+	
+		justify-content: center;
+		align-items: center;
+		
+		width: 80%;
+		min-height: 50vh;
+	
+	}
+	
+	.blog_post{
+		
+		display: flex;
+		flex-direction: column;
+		
+		min-width: 90vw;
+		height: 100%;
+		
+		background-color: #E8E8E8;
+
+
+
+		
+
+	
+	}
+	
+	.blog_image{
+		height: 30vh;
+		max-width: 95%;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	
+	
+	.blog_title{
+		font-family: 'Bebas Neue', cursive;
+		padding: 0px;
+		font-size: 40px;
+		height:15%;
+		text-align: center;
+	}
+	.blog_tag{
+		font-family: 'Dosis', sans-serif;
+		color: black;
+	
+		font-size:25px;
+		margin: 20px;
+	
+	}
+	
+	.blog_post button{
+
+		float: right; 
+		
+
+		
+		background-color: #3e3d50;
+		border: none;
+		
+		width: 80%;
+
+		
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		font-size:20px;
+		font-weight: bold;
+	}
+	
+	.blog_post button:hover{
+			color: #4ccc4f;
+	}
+	
+	.spacer{
+		height: 5vh;
+		background-color: #3e3d50;
+	}
+	
+	#newsletter{
+
+		display: flex;
+		height: 100%;
+	
+		margin: 0 auto;
+		padding-top: 5vh;
+		font-family: 'Dosis', sans-serif;
+		color: black;
+		font-size:30px;
+		width:100%;
+		height: 25vh;
+
+		padding-bottom: 15vh;
+
+	
+	}
+	
+	.email_input{
+		width:40vw;
+		font-family: 'Dosis', sans-serif;
+		color: black;
+
+		font-size:80px;
+		font-weight: bold;
+
+		height: 100px;
+		font-size:20px;
+	}
+	.signupBox{
+	
+		display: flex;
+		align-content: center;
+		justify-content: center;
+	}
+	
+	.signupBox button{
+		font-family: 'Dosis', sans-serif;
+		color: black;
+		font-weight: bold;
+		font-size:50px;
+		
+		background-color: Transparent;
+		border-radius: 4px;
+		border: 2px solid #4CAF50;
+	
+
+	}
+	
+	.signupBox button:hover{
+		background-color:#4CAF50;
+	}
+	
+	#footer{
+	
+		display: flex;
+		background-color: #3e3d50;
+
+		justify-content: space-around;
+		
+		padding: 20px;
+	
+	}
+	
+
+	
+	.footercontact{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: left;
+		align-items: left;
+		
+		color: white;
+		font-family: 'Dosis', sans-serif;
+		
+		width: 50%;
+		height: 100%;
+	}
+
+
+	
+	.footercontact p{
+		width: 80%;
+		font-size:15px;
+
+	}
+	
+	.socials button{
+		width: 40px;
+		height: 40px;
+		
+		border-radius: 4px;
+	}
+	
+	.twitter{
+	
+		
+		background-image: url("content/images/twitter.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		
+		border: none;
+	}
+	.instagram{
+	
+		
+		background-image: url("content/images/instagram.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		
+		border: none;
+	}
+	.youtube{
+	
+		
+		background-image: url("content/images/youtube.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		
+		border: none;
+	}
+	
+	.artstation{
+	
+		
+		background-image: url("content/images/artstation.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		
+		border: none;
+	}
+	
+	.twitter:hover , .youtube:hover, .instagram:hover,.artstation:hover{
+		border:2px solid #A6CDB2;
+	}
+	
+	.top_socials{
+	
+		position: absolute;
+		right: 0;
+	
+
+	}
+	.top_socials button{
+		opacity: 60%;
+		width: 40px;
+		height: 40px;
+		
+	
+	}
+	
+	.top_socials button:hover{
+		opacity: 100%;
+	}
+		
+	*{
+		max-width: 100vw;
+
+		font-size: 20%;
+	}
+
+	#mc_embed_signup{
+		display:flex; 
+		background:#fff; 
+		clear:left; width: 90%; 
+		margin: 0 auto; 
+		height: 100%; 
+	}
