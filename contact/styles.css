@@ -73,29 +73,19 @@ body{
 #landing{
 	display: flex;
 
+
+	
 	min-height: 70vh;
 	width: 100%;
 	
 }
 
 
-.image{
-
-	width: 50%;
-
-	float: left;
-	
-	background-image: url("../content/images/invercargill.png");
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-
-}
 
 .contactSide{
 
-	width:50%;
-	float: right;
+	width:100%;
+	text-align: center;
 
 	background-image: url("../content/images/contact_us.png");
 	background-size: contain;

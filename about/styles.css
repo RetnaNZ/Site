@@ -124,7 +124,6 @@ body{
 
 
 #the_team_panel h1{
-
 	
 	font-family: 'Bebas Neue', cursive;
 	font-weight: 400;
@@ -144,13 +143,11 @@ body{
 }
 
 .member{
-
 margin: 10px;
 background-color: black;
-height: 50vh;
+height: 100vh;
 width: 25%;
 
-text-align: center;
 }
 	
 #the_team_panels{
