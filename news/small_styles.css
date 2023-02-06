@@ -1,207 +1,119 @@
-	
+
 body{
 	padding: 0;
 	margin: 0;
 }
 
-#main-container{
-	height: 100%;
-	width: 100vw;
-}
-
 #header{
-	display: flex;
-	flex-wrap: wrap;
-	
-	justify-content: space-between;
-	width:80%;
 
-	margin: 0 auto;
+
+	justify-content: space-between;
+	width:100%;
+
+	padding-top: 10vh;
+
 
 }
 
-.header-background{
-	display: flex;
-	width: 100%;
-
+.header-background{	
 	background-color: #3e3d50;
 }
 
 .icon{
 	
-	width: 50%;
+	width: 80%;
+	height: 10vh;
+	margin: 0 auto;
+
+
+	background-image: url("../content/images/Logo_transparent.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	width: 80%;
 	height: 100px;
 	
-	float: left;
 	
     padding-top: 100px;
     background-image: url(../content/images/Logo_transparent.png);
-    background-size: 50%;
-    background-position: left;
+    background-size: 80%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
-.icon:hover{
-	cursor: pointer;
-}
 
 .menu{
-	
-	float:right;
-
-	
-
-	padding-left: 45px;
-	padding-top: 75px;
-
+	padding: 0 0;
+	margin: 0 auto;
+	justify-content: center;
 }
-
 .menu button {
 	background-color: Transparent;
-	width: 100px;
-	height: 50px;
+	width: 15vw;
+	height: 10px;
 	
 	border: none;
 		
 	font-family: 'Dosis', sans-serif;
 	color: white;
-	font-size: 30px;
+	font-size: 20px;
 
 }
 
 .menu button:hover{
 	color: #4ccc4f;
-	font-size: 2rem;
+	width: 15vw;
+	height: 10px;
+	font-size: 20px;
 }
+
+
 
 #landing{
-	z-index: -1;
-	height: 100%;
-	background-image: url("../content/images/about_page.png");
-	background-size: contain;
-	background-repeat: no-repeat;	
-	
-	padding-left: 50vw;
-	padding-top: 10vh;
-	padding-bottom: 5vh;
-
-	
-	font-family: 'Dosis', sans-serif;
-	font-size: 23px;
-	
-}
-
-.about_img{
-	width: 40%;
-	height: 150px;
-
-	padding: 5vh;
-	margin: 0;
-	background-image: url("../content/images/about_image.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	
-}
-
-.about_tag h2{
-	padding: 0;
-	margin: 0;
-	
-	color: #6c8ed3;
-}
-
-.speil{
-
-	display: flex;
-	width:80%;
-	
-	font-weight: lighter;
-
-}
-
-#the_team_panel{
-
-	padding: 1vh 0;
-	background-color: #1f1f27;
-	
-	font-family: 'Dosis', sans-serif;
-	color:white;
-}
-
-
-#the_team_panel h1{
-	
-	font-family: 'Bebas Neue', cursive;
-	font-weight: 400;
-	font-size: 100px;
-	padding: 1vh 0 0 10vw;
-	
-	margin:0;
-}
-
-#the_team_panel p{
-	padding: 0 10vw;
-
-}
-
-
-.member_name{
-
-	color: rgba(11,121,9,1);
-	font-family: 'Bebas Neue', cursive;
-	font-weight: 200;
-	font-size: 25px;
-
-	padding: 20px;
-
-}
-
-.member{
-margin: 10px;
-background-color: black;
-aspect-ratio: 3/4;
-height: 50vh;
-
-}
-	
-#the_team_panels{
-	
-	width: 100%;
-	
 	margin: 0 auto;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	
-	padding: 0 10vw;
 
+	justify-content: center;
 
-	
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+
+	font-size: 20px;
+}
+
+.blogtitle{
+	font-size: 30px;
+}
+
+#blogpost{
+	padding: 1vh 0;
+	width: 100%;
+}
+
+img{
+	width: 100%;
 }
 
 #footer{
 	
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	background-color: #3e3d50;
-
 	
-
-	
-	justify-content: space-around;
-	
-	padding-bottom: 20px;
 
 }
 
 .footerimage{
-	display: flex;
-
+display: block;
+height: 10vh;
 	
 	background-image: url("../content/images/Logo_transparent.png");
 	background-size: contain;
 	background-repeat: no-repeat;
-	
-	width: 50%;
-	margin: 60px;
 }
 
 .footercontact{
@@ -215,7 +127,7 @@ height: 50vh;
 	font-size:15px;
 
 	
-	width: 50%;
+	width: 60%;
 	height: 100%;
 }
 
@@ -289,4 +201,12 @@ height: 50vh;
 
 .top_socials button:hover{
 	opacity: 100%;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+h1:hover, h2:hover, h3:hover{
+	cursor:default;
 }

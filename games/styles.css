@@ -3,6 +3,7 @@ body{
 	margin: 0;
 }
 
+
 #main-container{
 	height: 100%;
 }
@@ -138,8 +139,6 @@ body{
 
 	padding-bottom: 2vh;
 }
-
-
 #footer{
 	
 	display: flex;

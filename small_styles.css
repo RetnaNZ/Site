@@ -367,41 +367,44 @@
 	#footer{
 	
 		display: flex;
+		flex-direction: column;
+		align-items: center;
 		background-color: #3e3d50;
-
-		justify-content: space-around;
 		
-		padding: 20px;
 	
 	}
 	
-
+	.footerimage{
+	display: block;
+	height: 10vh;
+		
+		background-image: url("../content/images/Logo_transparent.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
 	
 	.footercontact{
 		display: flex;
-		flex-wrap: wrap;
 		flex-direction: column;
-		justify-content: left;
-		align-items: left;
+		justify-content: center;
+		align-items: center;
 		
 		color: white;
 		font-family: 'Dosis', sans-serif;
+		font-size:15px;
+	
 		
-		width: 50%;
+		width: 60%;
 		height: 100%;
 	}
-
-
 	
 	.footercontact p{
-		width: 80%;
-		font-size:15px;
-
+		font-size:25px;
 	}
 	
 	.socials button{
-		width: 40px;
-		height: 40px;
+		width: 50px;
+		height:50px;
 		
 		border-radius: 4px;
 	}
