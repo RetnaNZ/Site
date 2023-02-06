@@ -29,7 +29,7 @@ body{
 .icon{
 	
 	width: 50%;
-	height: 80px;
+	height: 100%;
 	
 	float: left;
 	
@@ -352,8 +352,7 @@ body{
 	font-family: 'Dosis', sans-serif;
 	color: black;
 	font-size:20px;
-	width:100%;
-	height: 25vh;
+	width:50vw;
 
 	padding-bottom: 5vh;
 

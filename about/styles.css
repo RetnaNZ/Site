@@ -4,7 +4,9 @@ body{
 	margin: 0;
 }
 
-
+#main-container{
+	height: 100%;	
+}
 
 #header{
 	display: flex;
@@ -12,44 +14,50 @@ body{
 	
 	justify-content: space-between;
 	width:80%;
-	height:100%;
+
 	margin: 0 auto;
 
 }
 
 .header-background{
 	display: flex;
-	flex-wrap:wrap;
-	width: 100vw;
+	width: 100%;
 
 	background-color: #3e3d50;
 }
 
 .icon{
 	
-	width: 80%;
-	height: 220px;
+	width: 50%;
+	height: 5vh;
 	
+	float: left;
 	
-	padding-top: 2vh;
+	padding-top: 150px;
 	
 	background-image: url("../content/images/Logo_transparent.png");
-
-	background-size: 80%;
+	background-size:50%;
 	background-position: left;
 	background-repeat: no-repeat;
+}
+
+.icon:hover{
+	cursor: pointer;
 }
 
 .menu{
 	
 	float:right;
-	padding-left: 45px;
 
+	
+
+	padding-left: 45px;
+	padding-top: 75px;
 
 }
 
 .menu button {
-	background-color: transparent;
+	background-color: Transparent;
 	width: 100px;
 	height: 50px;
 	
@@ -65,15 +73,19 @@ body{
 	color: #4ccc4f;
 	font-size: 2rem;
 }
+
 #landing{
 	z-index: -1;
 	height: 100%;
 	background-image: url("../content/images/about_page.png");
 	background-size: contain;
 	background-repeat: no-repeat;	
+	background-position: center left;
 	
 	padding-left: 50vw;
 	padding-top: 10vh;
+	padding-bottom: 5vh;
+
 	
 	font-family: 'Dosis', sans-serif;
 	font-size: 23px;
@@ -84,7 +96,7 @@ body{
 	width: 40%;
 	height: 150px;
 
-	padding: 0;
+	padding: 5vh;
 	margin: 0;
 	background-image: url("../content/images/about_image.png");
 	background-size: contain;
