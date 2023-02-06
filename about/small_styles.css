@@ -1,4 +1,4 @@
-	
+
 body{
 	padding: 0;
 	margin: 0;
@@ -11,7 +11,7 @@ body{
 	flex-wrap: wrap;
 	
 	justify-content: space-between;
-	width:80%;
+	width:100vw;
 	height:100%;
 	margin: 0 auto;
 
@@ -27,37 +27,35 @@ body{
 
 .icon{
 	
-	width: 80%;
-	height: 220px;
+	width: 100%;
+	height: 20vh;
 	
 	
-	padding-top: 2vh;
+	padding-top: 10vh;
 	
 	background-image: url("../content/images/Logo_transparent.png");
 
 	background-size: 80%;
-	background-position: left;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .menu{
-	
-	float:right;
-	padding-left: 45px;
+	display: flex;
+	width: 100vw;
+
+	padding-left: 0;
 
 
 }
 
 .menu button {
 	background-color: transparent;
-	width: 100px;
-	height: 50px;
-	
 	border: none;
 		
 	font-family: 'Dosis', sans-serif;
 	color: white;
-	font-size: 30px;
+	font-size: 100%;
 
 }
 
@@ -66,23 +64,23 @@ body{
 	font-size: 2rem;
 }
 #landing{
+	
 	z-index: -1;
-	height: 100%;
+	height: 20%;
 	background-image: url("../content/images/about_page.png");
 	background-size: contain;
 	background-repeat: no-repeat;	
 	
-	padding-left: 50vw;
-	padding-top: 10vh;
+	padding-left: 10vw;
+	padding-top: 30vh;
 	
 	font-family: 'Dosis', sans-serif;
 	font-size: 23px;
-	
 }
 
 .about_img{
-	width: 40%;
-	height: 150px;
+	width: 20%;
+	height: 20vh;
 
 	padding: 0;
 	margin: 0;
@@ -120,23 +118,21 @@ body{
 
 #the_team_panel h1{
 	
+	text-align: center;
 	font-family: 'Bebas Neue', cursive;
 	font-weight: 400;
-	font-size: 100px;
-	padding: 0 10vw;
+	font-size: 40px;
 	
+	padding: 0;
 	margin:0;
 }
 
 
 .member_name{
 
-	color: rgba(11,121,9,1);
 	font-family: 'Bebas Neue', cursive;
 	font-weight: 200;
 	font-size: 25px;
-
-	padding: 20px;
 
 }
 
@@ -144,7 +140,7 @@ body{
 margin: 10px;
 background-color: black;
 height: 50vh;
-width: 40%;
+width: 100%;
 
 }
 	
@@ -156,8 +152,7 @@ width: 40%;
 	display: flex;
 	flex-wrap: wrap;
 	
-	padding: 0 10vw;
-
+	padding-bottom: 5vh;
 
 	
 }
@@ -165,27 +160,20 @@ width: 40%;
 #footer{
 	
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	background-color: #3e3d50;
-
 	
-
-	
-	justify-content: space-around;
-	
-	padding-bottom: 20px;
 
 }
 
 .footerimage{
-	display: flex;
-
+display: block;
+height: 10vh;
 	
 	background-image: url("../content/images/Logo_transparent.png");
 	background-size: contain;
 	background-repeat: no-repeat;
-	
-	width: 50%;
-	margin: 60px;
 }
 
 .footercontact{
@@ -199,7 +187,7 @@ width: 40%;
 	font-size:15px;
 
 	
-	width: 50%;
+	width: 60%;
 	height: 100%;
 }
 
@@ -265,8 +253,8 @@ width: 40%;
 }
 .top_socials button{
 	opacity: 60%;
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 	
 
 }
@@ -274,3 +262,5 @@ width: 40%;
 .top_socials button:hover{
 	opacity: 100%;
 }
+	
+

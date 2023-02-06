@@ -22,7 +22,7 @@
 	
 	.icon{
 		
-		height: 90px;
+		height: 10vh;
 
 		margin: 0 auto;
 
@@ -185,14 +185,17 @@
 	}
 	
 	.about_us{
-		
-		text-align: right;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
 		font-family: 'Dosis', sans-serif;
 		color: white;
-		font-size:60px;
+		font-size:40px;
 		
-		height:100%;
-		width:50%;
+		height:60vh;
+		width:100%;
 		float: left;
 	}
 	
@@ -200,7 +203,7 @@
 		padding-bottom: 0px;
 		font-family: 'Bebas Neue', cursive;
 		font-weight: 400;
-		font-size: 50px;
+		font-size: 100px;
 		color: white;
 		
 	}
