@@ -2,10 +2,11 @@
 
 
 .member_image{
+	aspect-ratio: 3/4;
+
 	height: 100%;
-	width: 100%;
 	
-	background-size: 100%;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	
@@ -21,7 +22,7 @@
 #member1_info, #member2_info, #member3_info{
 	
 	display:none;
-	background-color: #727188;
+	background-color: #44884f;
 	margin: 0 auto;
 	width: 0;
 
