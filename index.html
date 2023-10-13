@@ -1,182 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retna Studios</title>
 
+	<link rel="stylesheet" href="styles.css">
 
-	<link rel="stylesheet" href="blogs.css">
-	<link rel="stylesheet" href="games.css">
-	
-	
-	<link rel="stylesheet" href="big_styles.css">
-	<link rel="stylesheet" type="text/css" media="screen and (max-width: 1460px)" href="middle_styles.css" >
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 520px)" href="small_styles.css">
-    <link rel="stylesheet" type="text/css" media="screen and (orientation:landscape) and (max-width: 900px)" href="small_styles.css">
-
-
-	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-	<style type="text/css">
-		
-		/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-		We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-	</style>
-
-
-
-	  
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&display=swap" rel="stylesheet">
-	  
-    <title>Retna.co.nz</title>
-  </head>
-	
-  <body>
-		<div class="socials top_socials">
-			<button class="twitter" onClick="twitter()"></button>
-			<button class="instagram" onClick="instagram()"></button>
-			<button class="youtube" onClick="youtube()"></button>
-			<button class="artstation" onClick="artstation()"></button>
-		</div>
-    <div id="main-container">
-		
-		<div class="header-background">
-			<div id="header">
-				<div id="icon_home" class="icon">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
+    
 
-				</div>
-				
-				<div class="menu">
-					<button id="home" class="home" style="font-weight: bolder; text-decoration:underline;	text-decoration-color: #4ccc4f;">home</button>
-					<button id="about" class="about">about</button>
-					<button id="games" class="games">games</button>
-					<button id="news" class="news">news</button>
-					<button id="contact" class="contact">contact</button>
-				</div>
-				
-			</div>
-			
-		</div>
-		
-		<!-- <div id="game_section">
-			<h2>some projects we have worked on</h2>
-			<div class="game_list">
-				
-				<div class="game_block game_1" id="game_1">Genesis jar
-					<div class="game_block_spiel">Retell the story of Adam and Eve. 
-						<button class="game_moreInfo" onClick="Game_1();"> read more </button>
-					</div>
-				</div>
-				
-				<div class="game_block game_2" id="game_2">Bashful
-					<div class="game_block_spiel">Don't get our furry buddy angry, or pay the price!
-						<button class="game_moreInfo" onClick="Game_2();"> read more </button>
-					</div>
-				</div>
-				
-				
-			</div>
-			
-		</div> -->
-		
-		<div id="slogan">
-			<div class="about_us">
+</head>
+<body>
+    <div id="Main_Wrap">
+        <div id="Menu">
+            <div><img src="./Content/Images/RetnaLogo.png" alt="RetnaLogo" id="logo"></div>
 
-				<h2>Hello!</h2>
+            <div id="buttons">
+                <h2 id="OurTeam">Our Team</h2>
+                <h2 id="YourTeam">Your Team</h2>
+                <h2 id="Publishing">Publishing</h2>
+            </div>
+        </div>
 
-				<p>We are a game development studio based out of Dunedin, New Zealand. <br><br>
-					Our focus is on making fun co-op games for you and a best-friend.<br><br>
-					We are currently working on a suite of our first commercial games.</p>
-			</div>
+        <div id="LandingPage">
+            <h2 id="OurTeamText">Our team is experts at publishing games into China.</h2>
+            <h2 id="YourTeamText">Your team is here to make great games for people the enjoy.</h2>
+            <h2 id="PublishingText">Lets work together to bring your great game into China.</h2>
+        </div>
 
-		</div>
-		
-		<div class="doris_me"><h1> what have we been up to?</h1></div>
-		<div id="blogs">
-			<div class="blog_post blog_1"> 
-				<div class="blog_image"></div>
-				<div class="blog_title"> we are off to NZGDC</div>
-				<div class="blog_tag"> the team from retna studios is heading to New Zealand game developers convention!<br>
+</div>
 
-					<div><button onClick="BlogPost();" style="float: right; padding: 10px;"> read more </button></div>
-				</div>
-			</div>
+<script src="app.js"></script>
 
-			<div class="blog_post blog_2"> 
-				<div class="blog_image"></div>
-				<div class="blog_title"> the website is up</div>
-				<div class="blog_tag"> We have been working up a storm to get some our name out there, the website is looks noice!<br>
-
-					<div><button onClick="BlogPost();" style="float: right; padding: 10px;"> read more </button></div>
-				</div>
-			</div>
-			
-			<div class="blog_post blog_3"> 
-				<div class="blog_image"></div>
-				<div class="blog_title"> Dunedin VR trip!</div>
-				<div class="blog_tag"> retna studios had the awesome oppertunity to go try out some Virtual Reality gameplay!<br>
-
-					<div><button onClick="BlogPost();" style="float: right; padding: 10px;"> read more </button></div>
-				</div>
-			</div>
-		
-		</div>
-		
-		<div class="spacer"></div>
-			<div id="newsletter">
-
-					<!-- Begin Mailchimp Signup Form -->
-
-					<div id="mc_embed_signup">
-					<form action="https://retna.us6.list-manage.com/subscribe/post?u=1bbf818f29c1ad5f076e49f67&amp;id=c65683da32" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						<div id="mc_embed_signup_scroll">
-						<h2 style="font-family: 'Bebas Neue', cursive; font-size: 50px;">Monthly news letter</h2>
-						<h2>keep up to date with what we are doing</h2>
-					<div class="mc-field-group">
-						<label for="mce-EMAIL">Email Address </label>
-						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-					</div>
-						<div id="mce-responses" class="clear">
-							<div class="response" id="mce-error-response" style="display:none"></div>
-							<div class="response" id="mce-success-response" style="display:none"></div>
-						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1bbf818f29c1ad5f076e49f67_c65683da32" tabindex="-1" value=""></div>
-						<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-						</div>
-					</form>
-					</div>
-					<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-					<!--End mc_embed_signup-->
-			</div>
-
-
-		
-	<div id="footer">
-		<div class="footerimage"></div>
-		<div class="footercontact">
-			<div>
-				<h1>contact us</h1>
-			</div>
-
-				<p>
-					retnastudios@gmail.com<br>
-					(+64) 21-0806-4848<br>
-				</p>
-
-			<div class="socials">
-				<button class="twitter" onClick="twitter()"></button>
-				<button class="instagram" onClick="instagram()"></button>
-				<button class="youtube" onClick="youtube()"></button>
-				<button class="artstation" onClick="artstation()"></button>
-			</div>
-		</div>
-
-	</div>
-
-      <script src="./function.js"></script>
-	  
-    </div>
-
-  </body>
+</body>
 </html>
